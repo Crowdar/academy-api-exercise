@@ -1,7 +1,6 @@
 package api.config;
 
-import services.ResponseHeadersService;
-import services.UserService;
+import services.*;
 
 public enum EntityConfiguration {
 
@@ -16,6 +15,24 @@ public enum EntityConfiguration {
         @Override
         public Class<?> getEntityService() {
             return ResponseHeadersService.class;
+        }
+    },
+    TOKEN {
+        @Override
+        public Class<?> getEntityService() {
+            return TokenService.class;
+        }
+    },
+    USER_CROWDAR {
+        @Override
+        public Class<?> getEntityService() {
+            return UserCrowdarService.class;
+        }
+    },
+    ERROR {
+        @Override
+        public Class<?> getEntityService() {
+            return ErrorCrowdarService.class;
         }
     };
 

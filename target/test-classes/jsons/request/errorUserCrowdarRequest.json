@@ -1,0 +1,8 @@
+{
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "asd123"
+  },
+  "urlParameters": {},
+  "endpoint": "rest/user/me"
+}

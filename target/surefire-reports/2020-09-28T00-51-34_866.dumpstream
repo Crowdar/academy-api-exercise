@@ -1,0 +1,4 @@
+# Created at 2020-09-28T00:51:35.260
+Boot Manifest-JAR contains absolute paths in classpath 'D:\MisDocumentos\Documentos\Crowdar\IntegradorApi\academy-api-exercise\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
