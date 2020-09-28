@@ -1,0 +1,283 @@
+27/09/20 04:02:54 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:02:54 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {Content-Type=application/json}, {"username":"admin","password":"password"}
+27/09/20 04:02:55 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 401 
+27/09/20 04:02:55 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.Token), not marked as ignorable (4 known properties: "expires", "username", "jwt", "role"])
+ at [Source: (String)"{"timestamp":"2020-09-27T07:02:51.816+0000","status":401,"error":"Unauthorized","message":"Unauthorized","path":"/user/authenticate"}"; line: 1, column: 15] (through reference chain: api.model.Token["timestamp"])
+27/09/20 04:02:55 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:04:14 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:04:15 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {Content-Type=application/json}, {"username":"admin","password":"password"}
+27/09/20 04:04:16 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 401 
+27/09/20 04:04:16 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.Token), not marked as ignorable (4 known properties: "expires", "username", "jwt", "role"])
+ at [Source: (String)"{"timestamp":"2020-09-27T07:04:12.443+0000","status":401,"error":"Unauthorized","message":"Unauthorized","path":"/user/authenticate"}"; line: 1, column: 15] (through reference chain: api.model.Token["timestamp"])
+27/09/20 04:04:16 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:08:09 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:08:09 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate?username=admin&password=password, {Content-Type=application/json}
+27/09/20 04:08:10 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Token@1de9a6c6,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Sun, 27 Sep 2020 07:08:06 GMT]}>
+27/09/20 04:08:10 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:10:02 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:10:02 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate?username=admin&password=password, {Content-Type=application/json}
+27/09/20 04:10:03 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Token@652e38d,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Sun, 27 Sep 2020 07:09:59 GMT]}>
+27/09/20 04:10:03 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:11:58 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:11:58 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate?username=admin&password=password, {Content-Type=application/json}
+27/09/20 04:11:59 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Token@514ea31c,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Sun, 27 Sep 2020 07:11:56 GMT]}>
+27/09/20 04:11:59 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:12:32 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:12:32 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {Content-Type=application/json}, {"username":"admin","password":"password"}
+27/09/20 04:12:33 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 401 
+27/09/20 04:12:33 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.Token), not marked as ignorable (4 known properties: "expires", "username", "jwt", "role"])
+ at [Source: (String)"{"timestamp":"2020-09-27T07:12:29.971+0000","status":401,"error":"Unauthorized","message":"Unauthorized","path":"/user/authenticate"}"; line: 1, column: 15] (through reference chain: api.model.Token["timestamp"])
+27/09/20 04:12:33 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:13:12 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:13:12 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {Content-Type=application/json, username=admin, password=password}
+27/09/20 04:13:13 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 401 
+27/09/20 04:13:13 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.Token), not marked as ignorable (4 known properties: "expires", "username", "jwt", "role"])
+ at [Source: (String)"{"timestamp":"2020-09-27T07:13:10.222+0000","status":401,"error":"Unauthorized","message":"Unauthorized","path":"/user/authenticate"}"; line: 1, column: 15] (through reference chain: api.model.Token["timestamp"])
+27/09/20 04:13:13 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:14:18 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:14:19 ERROR JsonUtils:37 - Unrecognized field "Body" (class com.crowdar.api.rest.Request), not marked as ignorable (5 known properties: "urlParameters", "body", "endpoint", "headers", "url"])
+ at [Source: (String)"{"headers":{"Content-Type":"application/json"},"Body":{"username":"admin","password":"password"},"urlParameters":{},"endpoint":"user/authenticate"}"; line: 1, column: 56] (through reference chain: com.crowdar.api.rest.Request["Body"])
+27/09/20 04:14:19 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:16:28 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:16:29 ERROR JsonUtils:37 - Unrecognized field "Body" (class com.crowdar.api.rest.Request), not marked as ignorable (5 known properties: "urlParameters", "body", "endpoint", "headers", "url"])
+ at [Source: (String)"{"urlParameters":{},"endpoint":"user/authenticate","headers":{"Content-Type":"application/json"},"Body":{"username":"admin","password":"password"}}"; line: 1, column: 106] (through reference chain: com.crowdar.api.rest.Request["Body"])
+27/09/20 04:16:29 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:17:24 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:17:25 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {Content-Type=application/json}, {"username":"admin","password":"password"}
+27/09/20 04:17:26 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 401 
+27/09/20 04:17:26 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.Token), not marked as ignorable (4 known properties: "expires", "username", "jwt", "role"])
+ at [Source: (String)"{"timestamp":"2020-09-27T07:17:22.306+0000","status":401,"error":"Unauthorized","message":"Unauthorized","path":"/user/authenticate"}"; line: 1, column: 15] (through reference chain: api.model.Token["timestamp"])
+27/09/20 04:17:26 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:21:42 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:21:42 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/v1/artists/6XyY86QOPPrYVGvF9ch6wz, {Content-Type=application/json, username=admin, password=password}, {}
+27/09/20 04:21:43 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 404 
+27/09/20 04:21:43 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.Token), not marked as ignorable (4 known properties: "expires", "username", "jwt", "role"])
+ at [Source: (String)"{"timestamp":"2020-09-27T07:21:39.602+0000","status":404,"error":"Not Found","message":"No message available","path":"/v1/artists/6XyY86QOPPrYVGvF9ch6wz"}"; line: 1, column: 15] (through reference chain: api.model.Token["timestamp"])
+27/09/20 04:21:43 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:27:21 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:27:22 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {Content-Type=application/json, username=admin, password=password}, {}
+27/09/20 04:27:23 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 401 
+27/09/20 04:27:23 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.Token), not marked as ignorable (4 known properties: "expires", "username", "jwt", "role"])
+ at [Source: (String)"{"timestamp":"2020-09-27T07:27:19.410+0000","status":401,"error":"Unauthorized","message":"Unauthorized","path":"/user/authenticate"}"; line: 1, column: 15] (through reference chain: api.model.Token["timestamp"])
+27/09/20 04:27:23 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:28:01 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:28:01 ERROR MethodsService:99 - Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (FileInputStream); line: 5, column: 4]
+27/09/20 04:28:01 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:28:35 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:28:35 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+27/09/20 04:28:36 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Token@7e4c688a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Sun, 27 Sep 2020 07:28:33 GMT]}>
+27/09/20 04:28:36 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:47:52 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:47:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+27/09/20 04:47:54 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@338c6d73,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Sun, 27 Sep 2020 07:47:50 GMT]}>
+27/09/20 04:47:54 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:49:05 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:49:05 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+27/09/20 04:49:06 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@231050d5,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Sun, 27 Sep 2020 07:49:02 GMT]}>
+27/09/20 04:49:06 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:50:09 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:50:09 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+27/09/20 04:50:10 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@513e0645,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Sun, 27 Sep 2020 07:50:06 GMT]}>
+27/09/20 04:50:10 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 04:51:22 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 04:51:22 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+27/09/20 04:51:23 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@4e20aa1d,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Sun, 27 Sep 2020 07:51:19 GMT]}>
+27/09/20 04:51:23 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+27/09/20 05:00:07 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+27/09/20 05:00:07 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+27/09/20 05:00:08 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@7e4c688a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Sun, 27 Sep 2020 08:00:05 GMT]}>
+27/09/20 05:00:08 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+28/09/20 00:47:12 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:47:12 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {id=2}, {Content-Type=application/json}
+28/09/20 00:47:14 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Data@377c68c6,{Date=[Mon, 28 Sep 2020 03:47:14 GMT], Content-Type=[application/json; charset=utf-8], Transfer-Encoding=[chunked], Connection=[keep-alive], Set-Cookie=[__cfduid=def5b2631ecec609cc3a41e43b2d793991601264834; expires=Wed, 28-Oct-20 03:47:14 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"], Via=[1.1 vegur], Cache-Control=[max-age=14400], CF-Cache-Status=[MISS], cf-request-id=[05746b6e4e0000d51d7b128200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Vary=[Accept-Encoding], Server=[cloudflare], CF-RAY=[5d9a7b5d4bf1d51d-MIA]}>
+28/09/20 00:47:14 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:47:14 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:47:14 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 00:47:14 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@1144a55a,{Date=[Mon, 28 Sep 2020 03:47:14 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-4AAcNa5BKRNKuQszVSMxuc9zgjk"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[05746b70380000d51d7b17d200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5d9a7b605901d51d-MIA]}>
+28/09/20 00:47:14 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:47:14 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:47:14 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 00:47:15 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@3e521715,{Date=[Mon, 28 Sep 2020 03:47:15 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-868fRZuUxa8nZZxgZaeV911Pmw8"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[05746b71f30000d51d7b18e200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5d9a7b631dc8d51d-MIA]}>
+28/09/20 00:47:15 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:47:15 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:47:15 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 00:47:15 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@26a529dc,{Date=[Mon, 28 Sep 2020 03:47:15 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-GmGx/9Bnd6MFpcKondUDDRHrYMY"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[05746b739f0000d51d7b19f200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5d9a7b65ca19d51d-MIA]}>
+28/09/20 00:47:15 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:47:15 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+28/09/20 00:47:15 INFO  MethodsService:109 - >>>Request: https://postman-echo.com/response-headers, {foo1=bar1, foo2=bar2}
+28/09/20 00:47:16 INFO  RestClient:90 - >>>Response: <200 OK,api.model.ResponseHeaders@12477988,{Date=[Mon, 28 Sep 2020 03:47:16 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[29], Connection=[keep-alive], foo1=[bar1], foo2=[bar2], ETag=[W/"1d-PgOLWVqd2mMvcpNzTF0Cfy4hftg"], Vary=[Accept-Encoding], set-cookie=[sails.sid=s%3A8fjxuLUKXbx-z7mcVodys-d9lnyfE_m2.77dQ%2FyTnV%2BouBjQdsIbVYlfPVZGG6nYJkPk10PLK4oE; Path=/; HttpOnly]}>
+28/09/20 00:47:16 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+28/09/20 00:47:57 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:47:58 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {id=2}, {Content-Type=application/json}
+28/09/20 00:47:59 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Data@377c68c6,{Date=[Mon, 28 Sep 2020 03:47:59 GMT], Content-Type=[application/json; charset=utf-8], Transfer-Encoding=[chunked], Connection=[keep-alive], Set-Cookie=[__cfduid=d5f786eacb98540b8c53220add2c2e66f1601264879; expires=Wed, 28-Oct-20 03:47:59 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"], Via=[1.1 vegur], Cache-Control=[max-age=14400], CF-Cache-Status=[HIT], Age=[45], cf-request-id=[05746c1ef600000428103d2200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Vary=[Accept-Encoding], Server=[cloudflare], CF-RAY=[5d9a7c77fcfa0428-MIA]}>
+28/09/20 00:47:59 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:47:59 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:47:59 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 00:47:59 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@1144a55a,{Date=[Mon, 28 Sep 2020 03:47:59 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-ZIXyYGHqbUfF1f6aJJHKop0pF68"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[05746c1fc700000428103d9200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5d9a7c793f6e0428-MIA]}>
+28/09/20 00:47:59 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:47:59 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:47:59 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 00:47:59 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@3e521715,{Date=[Mon, 28 Sep 2020 03:48:00 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-sP2GaShBACj4B9WqZQ9Bd4wpI+0"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[05746c217800000428103f2200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5d9a7c7bfccf0428-MIA]}>
+28/09/20 00:47:59 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:47:59 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:47:59 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 00:48:00 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@26a529dc,{Date=[Mon, 28 Sep 2020 03:48:00 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-UN5mvzVjKACVF4MNCWe45Kf8itU"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[05746c232f0000042810002200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Server=[cloudflare], CF-RAY=[5d9a7c7ebb0b0428-MIA]}>
+28/09/20 00:48:00 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:48:00 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+28/09/20 00:48:00 INFO  MethodsService:109 - >>>Request: https://postman-echo.com/response-headers, {foo1=bar1, foo2=bar2}
+28/09/20 00:48:01 INFO  RestClient:90 - >>>Response: <200 OK,api.model.ResponseHeaders@3e6f3bae,{Date=[Mon, 28 Sep 2020 03:48:01 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[29], Connection=[keep-alive], foo1=[bar1], foo2=[bar2], ETag=[W/"1d-PgOLWVqd2mMvcpNzTF0Cfy4hftg"], Vary=[Accept-Encoding], set-cookie=[sails.sid=s%3AYEa44mHqRssfSn-ojMSm4veC4gfiJK0M.BBe%2BGXMjN2DeIpjypmzIM0rm8O1eoo3NWz8RCctc1iA; Path=/; HttpOnly]}>
+28/09/20 00:48:01 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+28/09/20 00:50:01 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:50:01 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/, {id=2}, {Content-Type=application/json}
+28/09/20 00:50:02 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 404 
+28/09/20 00:50:02 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.Data), not marked as ignorable (one known property: "data"])
+ at [Source: (String)"{"timestamp":"2020-09-28T03:50:02.998+0000","status":404,"error":"Not Found","message":"No message available","path":"/"}"; line: 1, column: 15] (through reference chain: api.model.Data["timestamp"])
+28/09/20 00:50:02 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:50:02 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:50:02 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 00:50:02 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 404 
+28/09/20 00:50:02 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCreated), not marked as ignorable (3 known properties: "name", "job", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-28T03:50:03.240+0000","status":404,"error":"Not Found","message":"No message available","path":"/"}"; line: 1, column: 15] (through reference chain: api.model.UserCreated["timestamp"])
+28/09/20 00:50:02 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:50:02 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:50:02 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 00:50:03 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 404 
+28/09/20 00:50:03 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCreated), not marked as ignorable (3 known properties: "name", "job", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-28T03:50:03.438+0000","status":404,"error":"Not Found","message":"No message available","path":"/"}"; line: 1, column: 15] (through reference chain: api.model.UserCreated["timestamp"])
+28/09/20 00:50:03 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:50:03 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:50:03 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 00:50:03 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 404 
+28/09/20 00:50:03 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCreated), not marked as ignorable (3 known properties: "name", "job", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-28T03:50:03.649+0000","status":404,"error":"Not Found","message":"No message available","path":"/"}"; line: 1, column: 15] (through reference chain: api.model.UserCreated["timestamp"])
+28/09/20 00:50:03 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:50:03 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+28/09/20 00:50:03 INFO  MethodsService:109 - >>>Request: https://postman-echo.com/response-headers, {foo1=bar1, foo2=bar2}
+28/09/20 00:50:04 INFO  RestClient:90 - >>>Response: <200 OK,api.model.ResponseHeaders@ec5f5eb,{Date=[Mon, 28 Sep 2020 03:50:04 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[29], Connection=[keep-alive], foo1=[bar1], foo2=[bar2], ETag=[W/"1d-PgOLWVqd2mMvcpNzTF0Cfy4hftg"], Vary=[Accept-Encoding], set-cookie=[sails.sid=s%3AhDq5bUpHONftdXatzgaKpaMHqSSFH-Uk.gZ2qj394j7nDN9kXGtfXT6k5ureneUpJCvG5VCwmNLA; Path=/; HttpOnly]}>
+28/09/20 00:50:04 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+28/09/20 00:50:53 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:50:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/, {id=2}, {Content-Type=application/json}
+28/09/20 00:50:54 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 404 
+28/09/20 00:50:54 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.Data), not marked as ignorable (one known property: "data"])
+ at [Source: (String)"{"timestamp":"2020-09-28T03:50:54.848+0000","status":404,"error":"Not Found","message":"No message available","path":"/"}"; line: 1, column: 15] (through reference chain: api.model.Data["timestamp"])
+28/09/20 00:50:54 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:50:54 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:50:54 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 00:50:54 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 404 
+28/09/20 00:50:54 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCreated), not marked as ignorable (3 known properties: "name", "job", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-28T03:50:55.085+0000","status":404,"error":"Not Found","message":"No message available","path":"/"}"; line: 1, column: 15] (through reference chain: api.model.UserCreated["timestamp"])
+28/09/20 00:50:54 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:50:54 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:50:54 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 00:50:55 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 404 
+28/09/20 00:50:55 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCreated), not marked as ignorable (3 known properties: "name", "job", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-28T03:50:55.283+0000","status":404,"error":"Not Found","message":"No message available","path":"/"}"; line: 1, column: 15] (through reference chain: api.model.UserCreated["timestamp"])
+28/09/20 00:50:55 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:50:55 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+28/09/20 00:50:55 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/, {Content-Type=application/json}, {"name":"test","job":"leader"}
+28/09/20 00:50:55 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 404 
+28/09/20 00:50:55 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCreated), not marked as ignorable (3 known properties: "name", "job", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-28T03:50:55.483+0000","status":404,"error":"Not Found","message":"No message available","path":"/"}"; line: 1, column: 15] (through reference chain: api.model.UserCreated["timestamp"])
+28/09/20 00:50:55 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+28/09/20 00:50:55 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+28/09/20 00:50:55 INFO  MethodsService:109 - >>>Request: https://postman-echo.com/response-headers, {foo1=bar1, foo2=bar2}
+28/09/20 00:50:56 INFO  RestClient:90 - >>>Response: <200 OK,api.model.ResponseHeaders@59ab07aa,{Date=[Mon, 28 Sep 2020 03:50:56 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[29], Connection=[keep-alive], foo1=[bar1], foo2=[bar2], ETag=[W/"1d-PgOLWVqd2mMvcpNzTF0Cfy4hftg"], Vary=[Accept-Encoding], set-cookie=[sails.sid=s%3AkKvlKRtq9DPo-qxbdm6-X6WD7dCZ2sLb.Aw%2FArUXiAEe7e7pJQmZewf9OMoidILiywgcKODUHcmk; Path=/; HttpOnly]}>
+28/09/20 00:50:56 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+28/09/20 00:51:36 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+28/09/20 00:51:36 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+28/09/20 00:51:37 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@338c6d73,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Mon, 28 Sep 2020 03:51:37 GMT]}>
+28/09/20 00:51:37 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+28/09/20 12:36:58 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+28/09/20 12:36:59 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+28/09/20 12:37:00 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@3d4d3fe7,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Mon, 28 Sep 2020 15:36:59 GMT]}>
+28/09/20 12:40:36 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+28/09/20 13:32:57 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+28/09/20 13:32:57 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+28/09/20 13:33:03 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@6ce1f601,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Mon, 28 Sep 2020 16:32:58 GMT]}>
+28/09/20 13:37:58 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+28/09/20 14:03:33 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+28/09/20 14:03:33 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+28/09/20 14:03:34 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@6ce1f601,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Mon, 28 Sep 2020 17:03:33 GMT]}>
+28/09/20 16:27:47 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+28/09/20 16:27:47 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+28/09/20 16:27:49 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@6d6bc158,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Mon, 28 Sep 2020 19:27:48 GMT]}>
+28/09/20 16:27:49 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+28/09/20 16:35:48 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+28/09/20 16:35:48 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+28/09/20 16:35:49 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@c00fff0,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Mon, 28 Sep 2020 19:35:48 GMT]}>
+28/09/20 16:35:49 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+28/09/20 16:35:49 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+28/09/20 16:35:49 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+28/09/20 16:36:55 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+28/09/20 16:36:55 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+28/09/20 16:36:56 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@51768776,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Mon, 28 Sep 2020 19:36:55 GMT]}>
+28/09/20 16:36:56 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+28/09/20 16:36:56 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+28/09/20 16:36:56 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+28/09/20 16:39:04 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+28/09/20 16:39:04 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+28/09/20 16:39:05 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@52f239f6,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Mon, 28 Sep 2020 19:39:04 GMT]}>
+28/09/20 16:39:05 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+28/09/20 16:39:05 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+28/09/20 16:39:05 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+28/09/20 16:41:04 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+28/09/20 16:41:04 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+28/09/20 16:41:05 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@1bfaf83e,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Mon, 28 Sep 2020 19:41:04 GMT]}>
+28/09/20 16:41:05 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+28/09/20 16:41:05 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+28/09/20 16:41:05 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+28/09/20 16:43:27 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+28/09/20 16:43:27 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+28/09/20 16:43:28 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@3dfdd6cc,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Mon, 28 Sep 2020 19:43:27 GMT]}>
+28/09/20 16:43:28 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+28/09/20 16:43:28 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar2-----
+28/09/20 16:43:28 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar2-----
+28/09/20 16:45:35 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar-----
+28/09/20 16:45:36 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+28/09/20 16:45:37 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@38df3210,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Mon, 28 Sep 2020 19:45:36 GMT]}>
+28/09/20 16:45:37 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar-----
+28/09/20 16:45:37 INFO  BasicHook:20 - ------ Starting -----Probando la API de Crowdar2-----
+28/09/20 16:45:37 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxMzIyMzM2LCJleHAiOjE2MDE0MDg3MzZ9.5HBnTxhFL2fdlQJ5t8vQdAE6ndDWsCvY7_80DVKo1MhhaE8-iwCEmElJWc7rp41Xp5AxrCmWNP-cnoRcxQxqdQ}
+28/09/20 16:45:37 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@3e2bf9ba,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Mon, 28 Sep 2020 19:45:36 GMT]}>
+28/09/20 16:45:37 INFO  BasicHook:35 - ------ Ending -----Probando la API de Crowdar2-----
+28/09/20 17:31:25 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+28/09/20 17:31:26 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+28/09/20 17:31:27 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@3dfdd6cc,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Mon, 28 Sep 2020 20:31:25 GMT]}>
+28/09/20 17:31:27 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+28/09/20 17:31:27 INFO  BasicHook:20 - ------ Starting -----Solicitar mi usuario-----
+28/09/20 17:31:27 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxMzI1MDg1LCJleHAiOjE2MDE0MTE0ODV9.t_ILHodF6NSFg60pzKU45un9yDDg5NeMX6x-ciEqc-rFVLBFz9OMiyhPj1iX5rYOugEAy_jjcH6fcDV_nGst7w}
+28/09/20 17:31:27 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@7fe70a77,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Mon, 28 Sep 2020 20:31:25 GMT]}>
+28/09/20 17:31:27 INFO  BasicHook:35 - ------ Ending -----Solicitar mi usuario-----
+28/09/20 17:31:27 INFO  BasicHook:20 - ------ Starting -----Solicitar mi usuario-----
+28/09/20 17:31:27 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=asd123}
+28/09/20 17:31:27 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+28/09/20 17:31:27 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCrowdar), not marked as ignorable (16 known properties: "lastName", "root", "name", "projectRole", "lastSignOn", "location", "role", "firstName", "updateAt", "company", "admin", "password", "email", "createAt", "url", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-28T20:31:26.127+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/user/me"}"; line: 1, column: 15] (through reference chain: api.model.UserCrowdar["timestamp"])
+28/09/20 17:31:27 INFO  BasicHook:35 - ------ Ending -----Solicitar mi usuario-----
+28/09/20 17:36:52 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+28/09/20 17:36:52 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+28/09/20 17:36:53 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@3dfdd6cc,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Mon, 28 Sep 2020 20:36:51 GMT]}>
+28/09/20 17:36:53 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+28/09/20 17:36:53 INFO  BasicHook:20 - ------ Starting -----Solicitar mi usuario-----
+28/09/20 17:36:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxMzI1NDExLCJleHAiOjE2MDE0MTE4MTF9.Cy6EYfXr5A4ygLQKXkhMB9kJ43EgimSqDSLIbKKaivuVgT2cWT8uOzmh6aWwDn7QMWp1jOIixZ9Faq1b6nWlcA}
+28/09/20 17:36:53 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@7fe70a77,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Mon, 28 Sep 2020 20:36:51 GMT]}>
+28/09/20 17:36:53 INFO  BasicHook:35 - ------ Ending -----Solicitar mi usuario-----
+28/09/20 17:36:53 INFO  BasicHook:20 - ------ Starting -----Solicitar mi usuario-----
+28/09/20 17:36:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=asd123}
+28/09/20 17:36:54 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+28/09/20 17:36:54 ERROR JsonUtils:37 - Unrecognized field "status" (class api.model.ErrorCrowdar), not marked as ignorable (5 known properties: "error", "path", "timestamp", "message", "statatus"])
+ at [Source: (String)"{"timestamp":"2020-09-28T20:36:52.414+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/user/me"}"; line: 1, column: 57] (through reference chain: api.model.ErrorCrowdar["status"])
+28/09/20 17:36:54 INFO  BasicHook:35 - ------ Ending -----Solicitar mi usuario-----
+28/09/20 17:40:17 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+28/09/20 17:40:17 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+28/09/20 17:40:18 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@38df3210,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Mon, 28 Sep 2020 20:40:16 GMT]}>
+28/09/20 17:40:18 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+28/09/20 17:40:18 INFO  BasicHook:20 - ------ Starting -----Solicitar mi usuario-----
+28/09/20 17:40:18 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxMzI1NjE3LCJleHAiOjE2MDE0MTIwMTd9.jV1bazbZHGMvqhFQW31xo6b1HQkI_DMcHkWnNAWCShpCINaq0J7mLi4Ysmp1KNPxz-rq3Zb2tGn4guXu06NVXA}
+28/09/20 17:40:19 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@3e2bf9ba,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Mon, 28 Sep 2020 20:40:16 GMT]}>
+28/09/20 17:40:19 INFO  BasicHook:35 - ------ Ending -----Solicitar mi usuario-----
+28/09/20 17:40:19 INFO  BasicHook:20 - ------ Starting -----Solicitar mi usuario-----
+28/09/20 17:40:19 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=asd123}
+28/09/20 17:40:19 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+28/09/20 17:40:19 INFO  BasicHook:35 - ------ Ending -----Solicitar mi usuario-----
