@@ -3,57 +3,44 @@ package api.model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class User {
-
     @JsonProperty("id")
-    private int id;
-    @JsonProperty("email")
-    private String email;
-    @JsonProperty("first_name")
-    private String first_name;
-    @JsonProperty("last_name")
-    private String last_name;
-    @JsonProperty("avatar")
-    private String avatar;
+    private String id;
+    @JsonProperty("name")
+    private String name;
+    @JsonProperty("password")
+    private String password;
+    @JsonProperty("role")
+    private String role;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
-    public String getEmail() {
-        return email;
+    public String getName() {
+        return name;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getFirst_name() {
-        return first_name;
+    public String getPassword() {
+        return password;
     }
 
-    public void setFirst_name(String first_name) {
-        this.first_name = first_name;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
-    public String getLast_name() {
-        return last_name;
+    public String getRole() {
+        return role;
     }
 
-    public void setLast_name(String last_name) {
-        this.last_name = last_name;
+    public void setRole(String role) {
+        this.role = role;
     }
-
-    public String getAvatar() {
-        return avatar;
-    }
-
-    public void setAvatar(String avatar) {
-        this.avatar = avatar;
-    }
-
-
 }
