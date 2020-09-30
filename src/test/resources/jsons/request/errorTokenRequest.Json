@@ -1,0 +1,8 @@
+{
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "123asd"
+  },
+  "urlParameters": {},
+  "endpoint": "rest/projects/q"
+}

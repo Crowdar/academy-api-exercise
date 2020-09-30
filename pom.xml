@@ -44,6 +44,15 @@
                 <apiExample.runner>testngParalell.xml</apiExample.runner>
             </properties>
         </profile>
+        <profile>
+        <id>Integrador</id>
+        <activation>
+        </activation>
+        <properties>
+            <apiExample.runner>testng.xml</apiExample.runner>
+            <base.api.url>http://vps2.crowdaronline.com:8083/</base.api.url>
+        </properties>
+        </profile>
     </profiles>
     <dependencies>
         <dependency>

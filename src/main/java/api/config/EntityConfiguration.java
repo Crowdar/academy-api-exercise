@@ -1,22 +1,36 @@
 package api.config;
 
-import services.ResponseHeadersService;
-import services.UserService;
+import api.model.Projects;
+import services.*;
 
 public enum EntityConfiguration {
 
-    USER {
+    TOKEN {
         @Override
         public Class<?> getEntityService() {
-            return UserService.class;
+            return TokenService.class;
+        }
+    },
+    ID_PROJECT {
+        @Override
+        public Class<?> getEntityService() {
+            return ProjectService.class;
         }
 
     },
-    RESPONSE_HEADERS {
+    ERROR {
         @Override
         public Class<?> getEntityService() {
-            return ResponseHeadersService.class;
+            return ErrorTokenService.class;
         }
+
+    },
+    PROJECTS {
+        @Override
+        public Class<?> getEntityService() {
+            return ProjectsService.class;
+        }
+
     };
 
     public abstract Class<?> getEntityService();

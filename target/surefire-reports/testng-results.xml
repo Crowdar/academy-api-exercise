@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="3525" started-at="2020-09-30T18:29:24Z" finished-at="2020-09-30T18:29:28Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ApiExampleProjectTestRunner@7e0b0338]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Login and Update Profile Test" duration-ms="3525" started-at="2020-09-30T18:29:24Z" finished-at="2020-09-30T18:29:28Z">
+      <class name="ApiExampleProjectTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:ApiExampleProjectTestRunner@7e0b0338]" name="setUpClass" is-config="true" duration-ms="295" started-at="2020-09-30T18:29:24Z" finished-at="2020-09-30T18:29:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ApiExampleProjectTestRunner@7e0b0338]" name="runScenario" duration-ms="2540" started-at="2020-09-30T18:29:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-30T18:29:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Crear Token"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Api"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ApiExampleProjectTestRunner@7e0b0338]" name="runScenario" duration-ms="259" started-at="2020-09-30T18:29:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-30T18:29:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Obtener lista de Projects"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Api"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ApiExampleProjectTestRunner@7e0b0338]" name="runScenario" duration-ms="296" started-at="2020-09-30T18:29:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-30T18:29:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Obtener lista de Projects"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Api"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ApiExampleProjectTestRunner@7e0b0338]" name="tearDownClass" is-config="true" duration-ms="47" started-at="2020-09-30T18:29:28Z" finished-at="2020-09-30T18:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ApiExampleProjectTestRunner -->
+    </test> <!-- Login and Update Profile Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

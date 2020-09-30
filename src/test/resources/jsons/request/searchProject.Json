@@ -1,0 +1,10 @@
+{
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "{{token}}"
+  },
+  "urlParameters": {
+    "ids": "{{ids}}"
+  },
+  "endpoint": "/rest/projects/search/findAllByIdIn"
+}
