@@ -2,7 +2,6 @@ package ar.steps;
 
 import api.config.EntityConfiguration;
 import api.model.Login;
-import api.model.UserExamen;
 import com.crowdar.api.rest.APIManager;
 import com.crowdar.core.PageSteps;
 import io.cucumber.java.en.And;
