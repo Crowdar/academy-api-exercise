@@ -7,7 +7,7 @@ public enum EntityConfiguration {
     USER {
         @Override
         public Class<?> getEntityService() {
-            return UserService.class;
+            return UserCrowdarService.class;
         }
 
     },
@@ -25,10 +25,16 @@ public enum EntityConfiguration {
         }
 
     },
-    CREAR_USER {
+    TOKEN {
         @Override
         public Class<?> getEntityService() {
-            return CrearUserService.class;
+            return TokenService.class;
+        }
+    },
+    USER_CROWDAR {
+        @Override
+        public Class<?> getEntityService() {
+            return UserCrowdarService.class;
         }
     };
 

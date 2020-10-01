@@ -1,24 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.525 s <<< FAILURE! - in TestSuite
-ApiExampleProjectTestRunner.runScenario  Time elapsed: 1.963 s  <<< FAILURE!
-java.lang.reflect.InvocationTargetException
-Caused by: org.springframework.http.converter.HttpMessageNotReadableException: 
-Could not read JSON document: Cannot deserialize instance of `api.model.Author` out of START_ARRAY token
- at [Source: (PushbackInputStream); line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `api.model.Author` out of START_ARRAY token
- at [Source: (PushbackInputStream); line: 1, column: 1]
-Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: 
-Cannot deserialize instance of `api.model.Author` out of START_ARRAY token
- at [Source: (PushbackInputStream); line: 1, column: 1]
-
-ApiExampleProjectTestRunner.runScenario  Time elapsed: 0.237 s  <<< FAILURE!
-java.lang.reflect.InvocationTargetException
-Caused by: org.springframework.http.converter.HttpMessageNotReadableException: 
-Could not read JSON document: Cannot construct instance of `api.model.Author` (although at least one Creator exists): no int/Int-argument constructor/factory method to deserialize from Number value (0)
- at [Source: (PushbackInputStream); line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `api.model.Author` (although at least one Creator exists): no int/Int-argument constructor/factory method to deserialize from Number value (0)
- at [Source: (PushbackInputStream); line: 1, column: 1]
-Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: 
-Cannot construct instance of `api.model.Author` (although at least one Creator exists): no int/Int-argument constructor/factory method to deserialize from Number value (0)
- at [Source: (PushbackInputStream); line: 1, column: 1]
-
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.198 s - in TestSuite

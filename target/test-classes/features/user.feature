@@ -4,8 +4,8 @@ Feature: Crowdar API
   PARA mostrar las mismas
 
   @User @200 @Success
-  Scenario Outline: A scenario
-    When realizo una petición '<operation>' a '<entity>' al endpoint usuario - '<request>'
+  Scenario Outline: Solicito mi usuario
+    When realizo una petición '<operation>' a '<entity>' al endpoint - '<request>'
     Then obtengo el codigo de status '<statusCode>'
     And la informacion es correcta respecto a '<response>'
     @Get

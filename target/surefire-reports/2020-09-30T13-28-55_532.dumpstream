@@ -1,0 +1,4 @@
+# Created at 2020-09-30T13:28:56.199
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Datos\academy-api-exercise\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

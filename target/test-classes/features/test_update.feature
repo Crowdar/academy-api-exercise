@@ -5,7 +5,7 @@ Feature: Crowdar API
 
   @Update @201 @Post @Success
   Scenario Outline: A scenario
-    When realizo una petición '<operation>' a '<entity>' al endpoint usuario - '<request>'
+    When realizo una petición '<operation>' a '<entity>' al endpoint - '<request>'
     Then obtengo el codigo de status '<statusCode>'
     Examples:
       | request                  |statusCode | operation | entity  |

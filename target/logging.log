@@ -361,3 +361,879 @@
 29/09/20 13:10:03 INFO  BasicHook:20 - ------ Starting -----A scenario-----
 29/09/20 13:10:03 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/authors/count, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxMzQxMTE5LCJleHAiOjE2MDE0Mjc1MTl9.Seyu0Cmozi6VSvIxGZ9Q7w33QhMktoOwtH1SGkHDeT7Ewp-7nIdVEjB4nKtXMQ_FAr7Bf769OtK_bUJWKjykYw, Content-Type=application/json}
 29/09/20 13:10:03 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:38:17 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 02:38:18 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 02:38:19 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@3ff15b00,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 05:38:22 GMT]}>
+30/09/20 02:38:19 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 02:38:19 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:38:20 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports?reportsLength=0, {reportsLength=0}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxMzQxMTE5LCJleHAiOjE2MDE0Mjc1MTl9.Seyu0Cmozi6VSvIxGZ9Q7w33QhMktoOwtH1SGkHDeT7Ewp-7nIdVEjB4nKtXMQ_FAr7Bf769OtK_bUJWKjykYw, Content-Type=application/json}
+30/09/20 02:38:20 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:38:20 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T05:38:22.407+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 02:38:20 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:38:20 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:38:20 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports?reportsLength=0, {reportsLength=0}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxMzQxMTE5LCJleHAiOjE2MDE0Mjc1MTl9.Seyu0Cmozi6VSvIxGZ9Q7w33QhMktoOwtH1SGkHDeT7Ewp-7nIdVEjB4nKtXMQ_FAr7Bf769OtK_bUJWKjykYw, Content-Type=application/json}
+30/09/20 02:38:20 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:38:20 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T05:38:22.624+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 02:38:20 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:38:20 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:38:20 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:38:20 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:38:20 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:38:20 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:38:20 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:40:53 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 02:40:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 02:40:55 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@6ed19b25,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 05:40:57 GMT]}>
+30/09/20 02:40:55 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 02:40:55 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:40:55 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports?reportsLength=0, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:40:55 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:40:55 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T05:40:57.765+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 02:40:55 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:40:55 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:40:55 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports?reportsLength=0, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:40:55 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:40:55 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T05:40:58.010+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 02:40:55 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:40:55 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:40:55 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:40:55 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:40:55 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:40:55 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:40:55 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:43:22 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 02:43:23 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 02:43:25 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@1b5ab34a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 05:43:27 GMT]}>
+30/09/20 02:43:25 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 02:43:25 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:43:25 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:43:25 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:43:25 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T05:43:27.839+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 02:43:25 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:43:25 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:43:25 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:43:25 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:43:25 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T05:43:28.065+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 02:43:25 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:43:25 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:43:25 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:43:25 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:43:25 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:43:25 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:43:25 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:44:07 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 02:44:07 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 02:44:09 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 05:44:11 GMT]}>
+30/09/20 02:44:09 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 02:44:09 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:44:09 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:44:09 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:44:09 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T05:44:11.867+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 02:44:09 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:44:09 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:44:09 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:44:09 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:44:09 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T05:44:12.087+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 02:44:09 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:44:09 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:44:09 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:44:09 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:44:09 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:44:09 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:44:09 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:48:47 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 02:48:47 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 02:48:49 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 05:48:51 GMT]}>
+30/09/20 02:48:49 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 02:48:49 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:48:49 ERROR MethodsService:99 - E:\Datos\academy-api-exercise\src\test\resources\jsons\rq_time_taken.json (El sistema no puede encontrar el archivo especificado)
+30/09/20 02:48:49 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:48:49 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:48:49 ERROR MethodsService:99 - E:\Datos\academy-api-exercise\src\test\resources\jsons\rq_test_length.json (El sistema no puede encontrar el archivo especificado)
+30/09/20 02:48:49 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:48:49 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:48:49 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:48:49 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:48:49 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:48:49 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:48:49 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:49:49 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 02:49:49 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 02:49:51 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 05:49:53 GMT]}>
+30/09/20 02:49:51 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 02:49:51 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:49:51 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:49:51 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:49:51 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T05:49:53.633+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 02:49:51 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:49:51 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:49:51 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:49:51 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:49:51 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T05:49:53.856+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 02:49:51 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:49:51 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:49:51 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/tests/update, {Authorization={{token}}, Content-Type=application/json}, {"reportName":"Crowdar","level":"1","name":"hostapi","status":"OK","bdd":true,"bddType":"MariaDB","childNodesLength":1,"endTime":"2030-09-29T04:08:49.492Z","startTime":"2030-09-29T04:08:49.492Z","description":"Prueba de update"}
+30/09/20 02:49:51 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:49:51 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UpdateTest), not marked as ignorable (10 known properties: "status", "level", "endTime", "name", "bddType", "reportName", "bdd", "childNodesLength", "description", "startTime"])
+ at [Source: (String)"{"timestamp":"2020-09-30T05:49:54.101+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/tests/update"}"; line: 1, column: 15] (through reference chain: api.model.UpdateTest["timestamp"])
+30/09/20 02:49:51 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:49:51 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:49:51 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:49:52 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:49:52 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.User), not marked as ignorable (4 known properties: "id", "role", "name", "password"])
+ at [Source: (String)"{"timestamp":"2020-09-30T05:49:54.308+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/user/me"}"; line: 1, column: 15] (through reference chain: api.model.User["timestamp"])
+30/09/20 02:49:52 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:49:52 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:49:52 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:49:52 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:49:52 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.User), not marked as ignorable (4 known properties: "id", "role", "name", "password"])
+ at [Source: (String)"{"timestamp":"2020-09-30T05:49:54.508+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/user/remove"}"; line: 1, column: 15] (through reference chain: api.model.User["timestamp"])
+30/09/20 02:49:52 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:50:52 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 02:50:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 02:50:54 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 05:50:57 GMT]}>
+30/09/20 02:50:54 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 02:50:54 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:50:54 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:50:55 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:50:55 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T05:50:57.271+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 02:50:55 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:50:55 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:50:55 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:50:55 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:50:55 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T05:50:57.490+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 02:50:55 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:50:55 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:50:55 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/tests/update, {Authorization={{token}}, Content-Type=application/json}, {"reportName":"Crowdar","level":"1","name":"hostapi","status":"OK","bdd":true,"bddType":"MariaDB","childNodesLength":1,"endTime":"2030-09-29T04:08:49.492Z","startTime":"2030-09-29T04:08:49.492Z","description":"Prueba de update"}
+30/09/20 02:50:55 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:50:55 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UpdateTest), not marked as ignorable (10 known properties: "status", "level", "endTime", "name", "bddType", "reportName", "bdd", "childNodesLength", "description", "startTime"])
+ at [Source: (String)"{"timestamp":"2020-09-30T05:50:57.722+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/tests/update"}"; line: 1, column: 15] (through reference chain: api.model.UpdateTest["timestamp"])
+30/09/20 02:50:55 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:50:55 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:50:55 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization={{token}}}
+30/09/20 02:50:55 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:50:55 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.User), not marked as ignorable (4 known properties: "id", "role", "name", "password"])
+ at [Source: (String)"{"timestamp":"2020-09-30T05:50:57.932+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/user/me"}"; line: 1, column: 15] (through reference chain: api.model.User["timestamp"])
+30/09/20 02:50:55 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:50:55 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:50:55 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:50:55 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:50:55 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.User), not marked as ignorable (4 known properties: "id", "role", "name", "password"])
+ at [Source: (String)"{"timestamp":"2020-09-30T05:50:58.130+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/user/remove"}"; line: 1, column: 15] (through reference chain: api.model.User["timestamp"])
+30/09/20 02:50:55 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:56:50 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 02:56:50 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 02:56:52 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 05:56:54 GMT]}>
+30/09/20 02:56:52 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 02:56:52 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:56:52 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:56:52 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:56:52 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T05:56:55.006+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 02:56:52 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:56:52 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:56:52 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:56:53 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:56:53 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T05:56:55.221+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 02:56:53 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:56:53 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:56:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/tests/update, {Authorization={{token}}, Content-Type=application/json}, {"reportName":"Crowdar","level":"1","name":"hostapi","status":"OK","bdd":true,"bddType":"MariaDB","childNodesLength":1,"endTime":"2030-09-29T04:08:49.492Z","startTime":"2030-09-29T04:08:49.492Z","description":"Prueba de update"}
+30/09/20 02:56:53 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:56:53 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UpdateTest), not marked as ignorable (10 known properties: "status", "level", "endTime", "name", "bddType", "reportName", "bdd", "childNodesLength", "description", "startTime"])
+ at [Source: (String)"{"timestamp":"2020-09-30T05:56:55.449+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/tests/update"}"; line: 1, column: 15] (through reference chain: api.model.UpdateTest["timestamp"])
+30/09/20 02:56:53 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:56:53 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:56:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization={{token}}}
+30/09/20 02:56:53 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:56:53 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.User), not marked as ignorable (4 known properties: "id", "role", "name", "password"])
+ at [Source: (String)"{"timestamp":"2020-09-30T05:56:55.650+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/user/me"}"; line: 1, column: 15] (through reference chain: api.model.User["timestamp"])
+30/09/20 02:56:53 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 02:56:53 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 02:56:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 02:56:53 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 02:56:53 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.User), not marked as ignorable (4 known properties: "id", "role", "name", "password"])
+ at [Source: (String)"{"timestamp":"2020-09-30T05:56:55.847+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/user/remove"}"; line: 1, column: 15] (through reference chain: api.model.User["timestamp"])
+30/09/20 02:56:53 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:20:02 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:20:02 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:20:04 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@b63f82,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:20:07 GMT]}>
+30/09/20 13:20:04 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:20:20 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:20:20 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:20:22 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:20:25 GMT]}>
+30/09/20 13:20:22 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:20:22 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:20:22 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:20:22 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:20:22 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:20:25.783+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:20:22 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:20:22 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:20:22 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:20:22 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:20:22 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:20:26.020+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:20:22 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:20:22 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:20:22 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/tests/update, {Authorization={{token}}, Content-Type=application/json}, {"reportName":"Crowdar","level":"1","name":"hostapi","status":"OK","bdd":true,"bddType":"MariaDB","childNodesLength":1,"endTime":"2030-09-29T04:08:49.492Z","startTime":"2030-09-29T04:08:49.492Z","description":"Prueba de update"}
+30/09/20 13:20:22 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:20:22 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UpdateTest), not marked as ignorable (10 known properties: "status", "level", "endTime", "name", "bddType", "reportName", "bdd", "childNodesLength", "description", "startTime"])
+ at [Source: (String)"{"timestamp":"2020-09-30T16:20:26.282+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/tests/update"}"; line: 1, column: 15] (through reference chain: api.model.UpdateTest["timestamp"])
+30/09/20 13:20:22 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:20:22 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:20:22 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization={{token}}}
+30/09/20 13:20:23 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:20:23 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.User), not marked as ignorable (4 known properties: "id", "role", "name", "password"])
+ at [Source: (String)"{"timestamp":"2020-09-30T16:20:26.506+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/user/me"}"; line: 1, column: 15] (through reference chain: api.model.User["timestamp"])
+30/09/20 13:20:23 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:20:23 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:20:23 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:20:23 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:20:23 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.User), not marked as ignorable (4 known properties: "id", "role", "name", "password"])
+ at [Source: (String)"{"timestamp":"2020-09-30T16:20:26.724+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/user/remove"}"; line: 1, column: 15] (through reference chain: api.model.User["timestamp"])
+30/09/20 13:20:23 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:22:31 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:22:32 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:22:33 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:22:36 GMT]}>
+30/09/20 13:22:33 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:22:33 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:22:33 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:22:33 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:22:33 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:22:37.152+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:22:33 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:22:33 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:22:33 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:22:34 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:22:34 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:22:37.399+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:22:34 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:22:34 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:22:34 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/tests/update, {Authorization={{token}}, Content-Type=application/json}, {"reportName":"Crowdar","level":"1","name":"hostapi","status":"OK","bdd":true,"bddType":"MariaDB","childNodesLength":1,"endTime":"2030-09-29T04:08:49.492Z","startTime":"2030-09-29T04:08:49.492Z","description":"Prueba de update"}
+30/09/20 13:22:34 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:22:34 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UpdateTest), not marked as ignorable (10 known properties: "status", "level", "endTime", "name", "bddType", "reportName", "bdd", "childNodesLength", "description", "startTime"])
+ at [Source: (String)"{"timestamp":"2020-09-30T16:22:37.667+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/tests/update"}"; line: 1, column: 15] (through reference chain: api.model.UpdateTest["timestamp"])
+30/09/20 13:22:34 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:22:34 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:22:34 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:22:34 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:22:34 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:22:58 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:22:58 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:23:00 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@4be2cdee,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:23:03 GMT]}>
+30/09/20 13:23:00 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:23:00 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:23:00 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:23:00 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:23:00 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:23:04.030+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:23:00 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:23:00 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:23:00 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:23:00 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:23:00 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:23:04.265+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:23:00 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:23:00 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:23:00 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/tests/update, {Authorization={{token}}, Content-Type=application/json}, {"reportName":"Crowdar","level":"1","name":"hostapi","status":"OK","bdd":true,"bddType":"MariaDB","childNodesLength":1,"endTime":"2030-09-29T04:08:49.492Z","startTime":"2030-09-29T04:08:49.492Z","description":"Prueba de update"}
+30/09/20 13:23:01 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:23:01 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UpdateTest), not marked as ignorable (10 known properties: "status", "level", "endTime", "name", "bddType", "reportName", "bdd", "childNodesLength", "description", "startTime"])
+ at [Source: (String)"{"timestamp":"2020-09-30T16:23:04.519+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/tests/update"}"; line: 1, column: 15] (through reference chain: api.model.UpdateTest["timestamp"])
+30/09/20 13:23:01 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:23:01 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:23:01 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:23:01 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:23:01 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:23:30 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:23:30 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:23:31 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:23:35 GMT]}>
+30/09/20 13:23:31 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:23:31 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:23:31 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:23:32 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:23:32 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:23:35.353+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:23:32 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:23:32 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:23:32 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:23:32 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:23:32 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:23:35.577+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:23:32 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:23:32 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:23:32 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/tests/update, {Authorization={{token}}, Content-Type=application/json}, {"reportName":"Crowdar","level":"1","name":"hostapi","status":"OK","bdd":true,"bddType":"MariaDB","childNodesLength":1,"endTime":"2030-09-29T04:08:49.492Z","startTime":"2030-09-29T04:08:49.492Z","description":"Prueba de update"}
+30/09/20 13:23:32 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:23:32 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UpdateTest), not marked as ignorable (10 known properties: "status", "level", "endTime", "name", "bddType", "reportName", "bdd", "childNodesLength", "description", "startTime"])
+ at [Source: (String)"{"timestamp":"2020-09-30T16:23:35.819+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/tests/update"}"; line: 1, column: 15] (through reference chain: api.model.UpdateTest["timestamp"])
+30/09/20 13:23:32 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:23:32 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:23:32 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzMDE1LCJleHAiOjE2MDE1Njk0MTV9.B_UZm4NtojSky3oJRiswBy9ygdCESUc8KeMjWA55vwdxPN-BIJBL3EHMRm3eP0QVCXzcZnNgihHFcPU4Q7fhBg}
+30/09/20 13:23:32 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@3febe748,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:23:35 GMT]}>
+30/09/20 13:23:32 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:23:32 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:23:32 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:25:42 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:25:42 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:25:43 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:25:47 GMT]}>
+30/09/20 13:25:43 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:25:43 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:25:43 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:25:44 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:25:44 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:25:47.465+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:25:44 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:25:44 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:25:44 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:25:44 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:25:44 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:25:47.674+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:25:44 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:25:44 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:25:44 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/tests/update, {Authorization={{token}}, Content-Type=application/json}, {"reportName":"Crowdar","level":"1","name":"hostapi","status":"OK","bdd":true,"bddType":"MariaDB","childNodesLength":1,"endTime":"2030-09-29T04:08:49.492Z","startTime":"2030-09-29T04:08:49.492Z","description":"Prueba de update"}
+30/09/20 13:25:44 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:25:44 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UpdateTest), not marked as ignorable (10 known properties: "status", "level", "endTime", "name", "bddType", "reportName", "bdd", "childNodesLength", "description", "startTime"])
+ at [Source: (String)"{"timestamp":"2020-09-30T16:25:47.893+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/tests/update"}"; line: 1, column: 15] (through reference chain: api.model.UpdateTest["timestamp"])
+30/09/20 13:25:44 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:25:44 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:25:44 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzMTQ3LCJleHAiOjE2MDE1Njk1NDd9.91_kX99oPSFyxvXSshTqztIsceqOX3X9kQIUSFGCiJqkgjWr6AG2UF2BvDyTF6LUm3q9tqLfiK1Dnn91-eo9KA}
+30/09/20 13:25:44 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@3febe748,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:25:47 GMT]}>
+30/09/20 13:25:44 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:25:44 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:25:44 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:26:31 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:26:31 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:26:33 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:26:36 GMT]}>
+30/09/20 13:26:33 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:26:33 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:26:33 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:26:33 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:26:33 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:26:36.913+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:26:33 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:26:33 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:26:33 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:26:33 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:26:33 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:26:37.125+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:26:33 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:26:33 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:26:33 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/tests/update, {Authorization={{token}}, Content-Type=application/json}, {"reportName":"Crowdar","level":"1","name":"hostapi","status":"OK","bdd":true,"bddType":"MariaDB","childNodesLength":1,"endTime":"2030-09-29T04:08:49.492Z","startTime":"2030-09-29T04:08:49.492Z","description":"Prueba de update"}
+30/09/20 13:26:34 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:26:34 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UpdateTest), not marked as ignorable (10 known properties: "status", "level", "endTime", "name", "bddType", "reportName", "bdd", "childNodesLength", "description", "startTime"])
+ at [Source: (String)"{"timestamp":"2020-09-30T16:26:37.359+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/tests/update"}"; line: 1, column: 15] (through reference chain: api.model.UpdateTest["timestamp"])
+30/09/20 13:26:34 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:26:34 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:26:34 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzMTk2LCJleHAiOjE2MDE1Njk1OTZ9.Do_I_6ccjicruanqxNIM-GOGwP4sd66vSG3J8ppgnYeNpQGRtRxXZSOdVFdvWD3L81Wj7pnwttV4AXQ1cWuKdg}
+30/09/20 13:26:34 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@3febe748,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:26:36 GMT]}>
+30/09/20 13:26:34 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:26:34 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:26:34 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:27:42 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:27:43 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:27:44 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@3ff15b00,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:27:47 GMT]}>
+30/09/20 13:27:44 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:27:44 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:27:44 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:27:44 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:27:44 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:27:48.196+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:27:44 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:27:44 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:27:44 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:27:45 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:27:45 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:27:48.401+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:27:45 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:27:45 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:27:45 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:27:45 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:27:45 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzMjY3LCJleHAiOjE2MDE1Njk2Njd9.h23A7JGVkxWWCZlh46PBEIWJZaaoNeOSTe6ut7F5RokC5MOhphOrthkKyG9ogQ7KAUZp_fSJJQkZ_x_0jbRMGQ}
+30/09/20 13:27:45 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@6293a920,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:27:47 GMT]}>
+30/09/20 13:27:45 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:27:45 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:27:45 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:28:57 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:28:57 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:28:59 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:29:02 GMT]}>
+30/09/20 13:28:59 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:28:59 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:28:59 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:28:59 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:28:59 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:29:03.168+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:28:59 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:28:59 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:28:59 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 13:29:00 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 13:29:00 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-09-30T16:29:03.373+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 13:29:00 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:29:00 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:29:00 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:29:00 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:29:00 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzMzQyLCJleHAiOjE2MDE1Njk3NDJ9.ncv_f-fbfBpo-2bnctVJLAocMZlOOC_nLG6e9I835I3-Lx4aYyy1h_JRKi6fn73JvunL-paUucPBrpIRsBvxHQ}
+30/09/20 13:29:00 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@700afe87,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:29:02 GMT]}>
+30/09/20 13:29:00 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:29:00 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:29:00 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:30:40 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:30:41 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:30:42 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:30:46 GMT]}>
+30/09/20 13:30:42 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:30:42 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:30:42 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:30:42 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:30:42 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:30:42 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:30:42 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:30:42 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:30:42 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzNDQ2LCJleHAiOjE2MDE1Njk4NDZ9.Ooq1dWG9SyhOOlSt3BLLKLJZbRvDCMm2ZC1x6DkzjUb47G9Qjqh9k0V1U4qtxajn1VNiAhgPn7e-VEuafZ1xtw}
+30/09/20 13:30:42 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@49a71108,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:30:46 GMT]}>
+30/09/20 13:30:42 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:30:42 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:30:42 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:33:34 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:33:35 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:33:36 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@6ed19b25,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:33:39 GMT]}>
+30/09/20 13:33:36 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:33:36 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:33:36 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:33:36 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:33:36 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:33:36 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:33:36 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:33:36 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:33:36 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzNjE5LCJleHAiOjE2MDE1NzAwMTl9.B70lNHrEWnHY02-LHfV-zfzsTa6veb8bilJuKhLO-Jcnago0okjWB7T-KBRNZSIsig86Cr99cHJRsuxrQ9s8Jg}
+30/09/20 13:33:36 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@1a03503,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:33:39 GMT]}>
+30/09/20 13:33:36 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:33:36 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:33:36 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:34:26 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:34:26 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:34:27 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@b63f82,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:34:31 GMT]}>
+30/09/20 13:34:27 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:34:27 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:34:27 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:34:27 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:34:27 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:34:27 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:34:27 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:34:27 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:34:27 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzNjcxLCJleHAiOjE2MDE1NzAwNzF9.p0RMBTYrId7rhTwl2tyNK8Rnz3iniAVn-gPydp8k0gxYBj_UCRlLpGyVCx3yPHon9yh8ev9F1-iOHwiCiuSFTQ}
+30/09/20 13:34:28 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@2bfd2174,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:34:31 GMT]}>
+30/09/20 13:34:28 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:34:28 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:34:28 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzNjcxLCJleHAiOjE2MDE1NzAwNzF9.p0RMBTYrId7rhTwl2tyNK8Rnz3iniAVn-gPydp8k0gxYBj_UCRlLpGyVCx3yPHon9yh8ev9F1-iOHwiCiuSFTQ, Content-Type=application/json}
+30/09/20 13:34:28 INFO  RestClient:90 - >>>Response: <200 OK,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Wed, 30 Sep 2020 16:34:31 GMT]}>
+30/09/20 13:34:28 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:35:19 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:35:20 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:35:22 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:35:25 GMT]}>
+30/09/20 13:35:22 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:35:22 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:35:22 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:35:22 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:35:22 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:35:22 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:35:22 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:35:22 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:35:22 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzNzI1LCJleHAiOjE2MDE1NzAxMjV9.FifSh8yAy_1wPzrzWTEsQsvVDIgoyqeu5fDQIPcXHalU-74PI039EMNn-fNnDSP55bka0n6loGbHkUXSXrKF0A}
+30/09/20 13:35:22 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@49a71108,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:35:25 GMT]}>
+30/09/20 13:35:22 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:35:22 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:35:22 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzNzI1LCJleHAiOjE2MDE1NzAxMjV9.FifSh8yAy_1wPzrzWTEsQsvVDIgoyqeu5fDQIPcXHalU-74PI039EMNn-fNnDSP55bka0n6loGbHkUXSXrKF0A, Content-Type=application/json}
+30/09/20 13:35:22 INFO  RestClient:90 - >>>Response: <200 OK,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Wed, 30 Sep 2020 16:35:25 GMT]}>
+30/09/20 13:35:22 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:36:27 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:36:28 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:36:29 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:36:32 GMT]}>
+30/09/20 13:36:29 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:36:29 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:36:29 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:36:29 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:36:29 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:36:29 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:36:29 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:36:29 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:36:29 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzNzkyLCJleHAiOjE2MDE1NzAxOTJ9.5IXP_Df2MkixPNHtOJePtpoxKaGeibyINiR-EcY1XLUUHI2MpIbeghK5Nnb8tRV1AdMXDPw34zIexVaGh2MmRg}
+30/09/20 13:36:29 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@49a71108,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:36:32 GMT]}>
+30/09/20 13:36:29 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:36:29 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:36:29 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzNzkyLCJleHAiOjE2MDE1NzAxOTJ9.5IXP_Df2MkixPNHtOJePtpoxKaGeibyINiR-EcY1XLUUHI2MpIbeghK5Nnb8tRV1AdMXDPw34zIexVaGh2MmRg, Content-Type=application/json}
+30/09/20 13:36:29 INFO  RestClient:90 - >>>Response: <200 OK,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Wed, 30 Sep 2020 16:36:32 GMT]}>
+30/09/20 13:36:29 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:37:30 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:37:31 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:37:32 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@7b8b0656,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:37:36 GMT]}>
+30/09/20 13:37:32 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:37:32 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:37:32 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:37:33 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:37:33 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:37:33 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:37:33 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:37:33 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:37:33 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzODU2LCJleHAiOjE2MDE1NzAyNTZ9.dWIF6DVal-Unmk_fUHWEAv9K2X9CYpegYhjjwnWbJru1KgKTovCr1QTAPpFFwv_17EjnOhvNpQEBFIvd8tT0rw}
+30/09/20 13:37:33 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@6b0fa5e4,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:37:36 GMT]}>
+30/09/20 13:37:33 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:37:33 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:37:33 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzODU2LCJleHAiOjE2MDE1NzAyNTZ9.dWIF6DVal-Unmk_fUHWEAv9K2X9CYpegYhjjwnWbJru1KgKTovCr1QTAPpFFwv_17EjnOhvNpQEBFIvd8tT0rw, Content-Type=application/json}
+30/09/20 13:37:33 INFO  RestClient:90 - >>>Response: <200 OK,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Wed, 30 Sep 2020 16:37:36 GMT]}>
+30/09/20 13:37:33 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:38:36 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:38:36 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:38:38 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:38:41 GMT]}>
+30/09/20 13:38:38 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:38:38 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:38:38 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:38:38 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:38:38 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:38:38 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:38:38 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:38:38 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:38:38 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzOTIxLCJleHAiOjE2MDE1NzAzMjF9.NKyGvHszsUkW5VG5tCARJQoaL4Os-hNx1N6qb6msAj6znTskj1CmHWjYseJYGVePnsOiB0zlE4UGlUXmtCqnuQ}
+30/09/20 13:38:38 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@49a71108,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:38:41 GMT]}>
+30/09/20 13:38:38 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:38:38 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:38:38 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDgzOTIxLCJleHAiOjE2MDE1NzAzMjF9.NKyGvHszsUkW5VG5tCARJQoaL4Os-hNx1N6qb6msAj6znTskj1CmHWjYseJYGVePnsOiB0zlE4UGlUXmtCqnuQ, Content-Type=application/json}
+30/09/20 13:38:38 INFO  RestClient:90 - >>>Response: <200 OK,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Wed, 30 Sep 2020 16:38:41 GMT]}>
+30/09/20 13:38:38 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:50:12 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:50:13 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:50:14 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:50:17 GMT]}>
+30/09/20 13:50:14 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:50:14 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:50:14 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:50:14 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:50:14 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:50:14 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:50:14 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:50:14 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:50:14 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg0NjE3LCJleHAiOjE2MDE1NzEwMTd9.Utb2phqxXWpO4LeJIjsam4Qsp3kV2NGdbR7uSZGq4Pp0oCuqCwnqJznrTux91Vk3iIgHxjgSGStJ7wpqhvwceA}
+30/09/20 13:50:14 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@49a71108,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:50:17 GMT]}>
+30/09/20 13:50:14 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:50:14 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:50:14 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg0NjE3LCJleHAiOjE2MDE1NzEwMTd9.Utb2phqxXWpO4LeJIjsam4Qsp3kV2NGdbR7uSZGq4Pp0oCuqCwnqJznrTux91Vk3iIgHxjgSGStJ7wpqhvwceA, Content-Type=application/json}
+30/09/20 13:50:15 INFO  RestClient:90 - >>>Response: <200 OK,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Wed, 30 Sep 2020 16:50:17 GMT]}>
+30/09/20 13:50:15 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:52:08 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:52:08 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:52:10 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@3ff15b00,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:52:13 GMT]}>
+30/09/20 13:52:10 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:52:10 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:52:10 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:52:10 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:52:10 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:52:10 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:52:10 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:52:10 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:52:10 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg0NzMzLCJleHAiOjE2MDE1NzExMzN9.nBeOuAtIEVi_0AqcXWn0HZ3fknrhIWeS5Mre__ZpD7Aw25rwe45DLTACup4klPfFiZxifmwSUwOH8m1bYYwTpA}
+30/09/20 13:52:10 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@f6966cf,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:52:13 GMT]}>
+30/09/20 13:52:10 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:52:10 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:52:10 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg0NzMzLCJleHAiOjE2MDE1NzExMzN9.nBeOuAtIEVi_0AqcXWn0HZ3fknrhIWeS5Mre__ZpD7Aw25rwe45DLTACup4klPfFiZxifmwSUwOH8m1bYYwTpA, Content-Type=application/json}
+30/09/20 13:52:10 INFO  RestClient:90 - >>>Response: <200 OK,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Wed, 30 Sep 2020 16:52:13 GMT]}>
+30/09/20 13:52:10 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:56:53 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:56:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:56:55 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:56:58 GMT]}>
+30/09/20 13:56:55 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:57:08 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:57:08 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:57:10 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@4be2cdee,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:57:13 GMT]}>
+30/09/20 13:57:10 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:57:10 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:57:10 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:57:10 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:57:10 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:57:10 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:57:10 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:57:10 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:57:10 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg1MDMzLCJleHAiOjE2MDE1NzE0MzN9.KsD14-wnPjTB2HRV78ZZWjDxx8ohJabvsoUkWOrWtHk2vL7wYS9tmfnDGJCDlX9Aa01l2zkKEa0OSuhkAZyEUw}
+30/09/20 13:57:10 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@5c737f7f,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:57:13 GMT]}>
+30/09/20 13:57:10 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:57:10 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:57:10 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg1MDMzLCJleHAiOjE2MDE1NzE0MzN9.KsD14-wnPjTB2HRV78ZZWjDxx8ohJabvsoUkWOrWtHk2vL7wYS9tmfnDGJCDlX9Aa01l2zkKEa0OSuhkAZyEUw, Content-Type=application/json}
+30/09/20 13:57:10 INFO  RestClient:90 - >>>Response: <200 OK,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Wed, 30 Sep 2020 16:57:13 GMT]}>
+30/09/20 13:57:10 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:58:19 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:58:19 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:58:20 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:58:24 GMT]}>
+30/09/20 13:58:20 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:58:20 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 13:58:20 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 13:58:20 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 13:58:20 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 13:58:20 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 13:58:20 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 13:58:20 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:58:20 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg1MTA0LCJleHAiOjE2MDE1NzE1MDR9.SYlwqmlKcte53o6p5Vz7QwIGgre9DCEMryynvA7LIrKyLHp9gc5s0bn7uPFg3KiZCappCoc0u_XlsWI6G7-x5w}
+30/09/20 13:58:21 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@49a71108,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 16:58:24 GMT]}>
+30/09/20 13:58:21 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 13:58:21 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 13:58:21 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg1MTA0LCJleHAiOjE2MDE1NzE1MDR9.SYlwqmlKcte53o6p5Vz7QwIGgre9DCEMryynvA7LIrKyLHp9gc5s0bn7uPFg3KiZCappCoc0u_XlsWI6G7-x5w, Content-Type=application/json}
+30/09/20 13:58:21 INFO  RestClient:90 - >>>Response: <200 OK,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Wed, 30 Sep 2020 16:58:24 GMT]}>
+30/09/20 13:58:21 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 14:00:24 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 14:00:25 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 14:00:26 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 17:00:29 GMT]}>
+30/09/20 14:00:26 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 14:00:26 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 14:00:26 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 14:00:26 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 14:00:26 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 14:00:26 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 14:00:26 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 14:00:26 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 14:00:26 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg1MjI5LCJleHAiOjE2MDE1NzE2Mjl9.gzl4HhX689M8e6T-ykioR4FxpKR9a7gzr_KdSR872OG0O7IaD9ct-nfRLOMlY53EaneDCvqHk3zeNXbZjadn0Q}
+30/09/20 14:00:26 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@49a71108,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 17:00:29 GMT]}>
+30/09/20 14:00:26 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 14:00:26 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 14:00:26 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg1MjI5LCJleHAiOjE2MDE1NzE2Mjl9.gzl4HhX689M8e6T-ykioR4FxpKR9a7gzr_KdSR872OG0O7IaD9ct-nfRLOMlY53EaneDCvqHk3zeNXbZjadn0Q, Content-Type=application/json}
+30/09/20 14:00:27 INFO  RestClient:90 - >>>Response: <200 OK,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Wed, 30 Sep 2020 17:00:29 GMT]}>
+30/09/20 14:00:27 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 21:21:44 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 21:21:45 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 21:21:47 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@6ed19b25,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Thu, 01 Oct 2020 00:21:51 GMT]}>
+30/09/20 21:21:47 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 21:21:47 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 21:21:47 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 21:21:47 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 21:21:47 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 21:21:47 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 21:21:47 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 21:21:47 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 21:21:47 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTExNzExLCJleHAiOjE2MDE1OTgxMTF9.WHE1CefND4BmlnUt3JgPzvzoK6pbrf02OJJLZD_M6ZslbsZFr3-ZK67XBBjNKNa0bWLhPjtjIt47yksQTB9xOg}
+30/09/20 21:21:47 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@1a03503,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 00:21:51 GMT]}>
+30/09/20 21:21:47 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 21:21:47 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 21:21:47 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTExNzExLCJleHAiOjE2MDE1OTgxMTF9.WHE1CefND4BmlnUt3JgPzvzoK6pbrf02OJJLZD_M6ZslbsZFr3-ZK67XBBjNKNa0bWLhPjtjIt47yksQTB9xOg, Content-Type=application/json}
+30/09/20 21:21:48 INFO  RestClient:90 - >>>Response: <200 OK,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Thu, 01 Oct 2020 00:21:51 GMT]}>
+30/09/20 21:21:48 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 21:25:04 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 21:25:04 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 21:25:04 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 21:25:04 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 21:27:47 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 21:27:47 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 21:27:47 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 21:27:47 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 21:38:27 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 21:38:27 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 21:38:27 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 21:38:27 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 21:39:18 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 21:39:18 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 21:39:20 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@3ff15b00,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Thu, 01 Oct 2020 00:39:25 GMT]}>
+30/09/20 21:39:20 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 21:39:20 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 21:39:20 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 21:39:20 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 21:39:20 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 21:39:20 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 21:39:20 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 21:39:20 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 21:39:20 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTEyNzY1LCJleHAiOjE2MDE1OTkxNjV9.FQPeGebW5EYY3Se-MoWSxPmus4a7GGvK-jnB3tRjxgU4ub8TyjUWH0YCF6nH6LiuFWrP7h28A8K8KjvKvO8F6Q}
+30/09/20 21:39:21 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@f6966cf,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 00:39:25 GMT]}>
+30/09/20 21:39:21 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 21:39:21 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 21:39:21 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove?id=admin, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTEyNzY1LCJleHAiOjE2MDE1OTkxNjV9.FQPeGebW5EYY3Se-MoWSxPmus4a7GGvK-jnB3tRjxgU4ub8TyjUWH0YCF6nH6LiuFWrP7h28A8K8KjvKvO8F6Q, Content-Type=application/json}
+30/09/20 21:39:21 INFO  RestClient:90 - >>>Response: <200 OK,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Thu, 01 Oct 2020 00:39:25 GMT]}>
+30/09/20 21:39:21 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 21:51:30 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 21:51:30 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 21:51:32 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5b24868a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Thu, 01 Oct 2020 00:51:36 GMT]}>
+30/09/20 21:51:32 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 21:51:32 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 21:51:32 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 21:51:32 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 21:51:32 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 21:51:32 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 21:51:32 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 21:51:32 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 21:51:32 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTEzNDk2LCJleHAiOjE2MDE1OTk4OTZ9._8DpGnin_6oyNVEWaOw1EIGYEoCzvvOgyyRQeTPbLBIJRnzV0TwtnHYMgcSESdpXS61KiVHu5oDSWY_uXFTo_w}
+30/09/20 21:51:32 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@49a71108,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 00:51:36 GMT]}>
+30/09/20 21:51:32 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 21:51:32 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 21:51:32 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTEzNDk2LCJleHAiOjE2MDE1OTk4OTZ9._8DpGnin_6oyNVEWaOw1EIGYEoCzvvOgyyRQeTPbLBIJRnzV0TwtnHYMgcSESdpXS61KiVHu5oDSWY_uXFTo_w, Content-Type=application/json}
+30/09/20 21:51:32 INFO  RestClient:90 - >>>Response: <200 OK,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Thu, 01 Oct 2020 00:51:36 GMT]}>
+30/09/20 21:51:32 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:25:58 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 23:25:58 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 23:25:58 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:25:58 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:25:58 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:25:58 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:25:58 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 23:25:58 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 23:25:58 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:25:58 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:25:58 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:25:58 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:32:16 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 23:32:16 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 23:32:16 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:32:16 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:32:16 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:32:16 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:32:16 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 23:32:16 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 23:32:16 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:32:16 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:32:16 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:32:16 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:33:38 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 23:33:38 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 23:33:38 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:33:38 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:33:38 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:33:38 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:33:38 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 23:33:38 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 23:33:38 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:33:38 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:33:38 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:33:38 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:35:17 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 23:35:17 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 23:35:17 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:35:17 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:35:17 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:35:17 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:35:17 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 23:35:17 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 23:35:17 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:35:17 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:35:17 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:35:17 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:37:54 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 23:37:54 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 23:37:56 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@2fbafa47,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Thu, 01 Oct 2020 02:38:00 GMT]}>
+30/09/20 23:37:56 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 23:37:56 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:37:56 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=30}, {Content-Type=application/json, Authorization={{token}}}
+30/09/20 23:37:56 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 23:37:56 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-10-01T02:38:01.066+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTimeTakenAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 23:37:56 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:37:56 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:37:56 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization={{token}}, Content-Type=application/json}
+30/09/20 23:37:56 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 23:37:56 ERROR JsonUtils:37 - Cannot deserialize instance of `api.model.Categories[]` out of START_OBJECT token
+ at [Source: (String)"{"timestamp":"2020-10-01T02:38:01.308+0000","status":403,"error":"Forbidden","message":"Forbidden","path":"/rest/categories/search/getCategoryTestLengthAverageOverNReports"}"; line: 1, column: 1]
+30/09/20 23:37:56 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:37:56 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 23:37:56 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 23:37:56 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:37:56 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTE5ODgwLCJleHAiOjE2MDE2MDYyODB9.iMGKqWizdWkj0PQc9bBEinEwD7dds0jaIfx09zmQRfvuXdKSnjKR9gxepHRObf7kaXjn7XpD2AkJNARK83WTlg}
+30/09/20 23:37:57 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@62d11c6a,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 02:38:00 GMT]}>
+30/09/20 23:37:57 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:37:57 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:37:57 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTE5ODgwLCJleHAiOjE2MDE2MDYyODB9.iMGKqWizdWkj0PQc9bBEinEwD7dds0jaIfx09zmQRfvuXdKSnjKR9gxepHRObf7kaXjn7XpD2AkJNARK83WTlg, Content-Type=application/json}
+30/09/20 23:37:57 INFO  RestClient:90 - >>>Response: <200 OK,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Thu, 01 Oct 2020 02:38:00 GMT]}>
+30/09/20 23:37:57 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:46:21 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 23:46:21 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 23:46:23 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@7debca80,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Thu, 01 Oct 2020 02:46:28 GMT]}>
+30/09/20 23:46:23 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 23:46:23 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:46:23 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=30}, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwMzg4LCJleHAiOjE2MDE2MDY3ODh9.PbUBHVJNwKLezvbjWNJQ6xw4i9dm-xK8XLTsBauYw8EIZLXy0qvDQxZsgZIo9k9iiGn80YfdvbcJKemPzwJTxw}
+30/09/20 23:46:24 INFO  RestClient:90 - >>>Response: <200 OK,[Lapi.model.Categories;@7d9e2db9,{Set-Cookie=[JSESSIONID=289566B712AB92AA4254B8CD8A579AB1; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 02:46:28 GMT]}>
+30/09/20 23:46:24 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:46:24 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:46:24 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwMzg4LCJleHAiOjE2MDE2MDY3ODh9.PbUBHVJNwKLezvbjWNJQ6xw4i9dm-xK8XLTsBauYw8EIZLXy0qvDQxZsgZIo9k9iiGn80YfdvbcJKemPzwJTxw, Content-Type=application/json}
+30/09/20 23:46:25 INFO  RestClient:90 - >>>Response: <200 OK,[Lapi.model.Categories;@a0d88b0,{Set-Cookie=[JSESSIONID=1B31C18F16CEDCA71E75FA1D4F65D41F; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 02:46:28 GMT]}>
+30/09/20 23:46:25 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:46:25 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 23:46:25 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 23:46:25 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:46:25 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwMzg4LCJleHAiOjE2MDE2MDY3ODh9.PbUBHVJNwKLezvbjWNJQ6xw4i9dm-xK8XLTsBauYw8EIZLXy0qvDQxZsgZIo9k9iiGn80YfdvbcJKemPzwJTxw}
+30/09/20 23:46:25 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@657d6cbb,{Set-Cookie=[JSESSIONID=D6110B0707AD43BC9EE89B316D9C87F8; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 02:46:29 GMT]}>
+30/09/20 23:46:25 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:46:25 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:46:25 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwMzg4LCJleHAiOjE2MDE2MDY3ODh9.PbUBHVJNwKLezvbjWNJQ6xw4i9dm-xK8XLTsBauYw8EIZLXy0qvDQxZsgZIo9k9iiGn80YfdvbcJKemPzwJTxw, Content-Type=application/json}
+30/09/20 23:46:25 INFO  RestClient:90 - >>>Response: <200 OK,{Set-Cookie=[JSESSIONID=4804E2119F88C62189D8E938FAF78C33; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Thu, 01 Oct 2020 02:46:29 GMT]}>
+30/09/20 23:46:25 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:48:03 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 23:48:04 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 23:48:06 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@2fbafa47,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Thu, 01 Oct 2020 02:48:10 GMT]}>
+30/09/20 23:48:06 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 23:48:06 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:48:06 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=30}, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwNDkwLCJleHAiOjE2MDE2MDY4OTB9.4QzKsixC7OlTvsHf9OzPJtgt5UH5nEVy-oETnqIBG-GS_8GwSWIkGUDQis-b3CyJ4-cFsmcVDykiZAGqb_mt7A}
+30/09/20 23:48:06 INFO  RestClient:90 - >>>Response: <200 OK,[Lapi.model.Categories;@5e05814e,{Set-Cookie=[JSESSIONID=CE935EDC68442952E0FAAD31E9CF8D23; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 02:48:10 GMT]}>
+30/09/20 23:48:06 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:48:06 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:48:06 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwNDkwLCJleHAiOjE2MDE2MDY4OTB9.4QzKsixC7OlTvsHf9OzPJtgt5UH5nEVy-oETnqIBG-GS_8GwSWIkGUDQis-b3CyJ4-cFsmcVDykiZAGqb_mt7A, Content-Type=application/json}
+30/09/20 23:48:06 INFO  RestClient:90 - >>>Response: <200 OK,[Lapi.model.Categories;@19ddf456,{Set-Cookie=[JSESSIONID=A97513BC15BE955519452D42244AF7D8; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 02:48:10 GMT]}>
+30/09/20 23:48:06 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:48:06 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 23:48:06 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 23:48:06 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:48:06 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwNDkwLCJleHAiOjE2MDE2MDY4OTB9.4QzKsixC7OlTvsHf9OzPJtgt5UH5nEVy-oETnqIBG-GS_8GwSWIkGUDQis-b3CyJ4-cFsmcVDykiZAGqb_mt7A}
+30/09/20 23:48:06 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@f255494,{Set-Cookie=[JSESSIONID=E40CC65416FF81EBB0EE87805CBE709F; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 02:48:10 GMT]}>
+30/09/20 23:48:06 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:48:06 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:48:06 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwNDkwLCJleHAiOjE2MDE2MDY4OTB9.4QzKsixC7OlTvsHf9OzPJtgt5UH5nEVy-oETnqIBG-GS_8GwSWIkGUDQis-b3CyJ4-cFsmcVDykiZAGqb_mt7A, Content-Type=application/json}
+30/09/20 23:48:07 INFO  RestClient:90 - >>>Response: <200 OK,{Set-Cookie=[JSESSIONID=955EE58808801D6114AAE966EA588E2D; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Thu, 01 Oct 2020 02:48:10 GMT]}>
+30/09/20 23:48:07 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:48:49 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 23:48:50 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 23:48:52 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@7debca80,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Thu, 01 Oct 2020 02:48:56 GMT]}>
+30/09/20 23:48:52 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 23:48:52 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:48:52 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=30}, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwNTM2LCJleHAiOjE2MDE2MDY5MzZ9.2z6o1neRc-h6hXrZM-gAGFYAwxSuWZZAO6rVi_TYlKxW1euCa6_GWXPTcVgBvD-1pV6xqzQdF-FA78tP2teLNA}
+30/09/20 23:48:52 INFO  RestClient:90 - >>>Response: <200 OK,[Lapi.model.Categories;@7d9e2db9,{Set-Cookie=[JSESSIONID=4B58969347D11993451689D8779260FF; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 02:48:56 GMT]}>
+30/09/20 23:48:52 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:48:52 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:48:52 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwNTM2LCJleHAiOjE2MDE2MDY5MzZ9.2z6o1neRc-h6hXrZM-gAGFYAwxSuWZZAO6rVi_TYlKxW1euCa6_GWXPTcVgBvD-1pV6xqzQdF-FA78tP2teLNA, Content-Type=application/json}
+30/09/20 23:48:53 INFO  RestClient:90 - >>>Response: <200 OK,[Lapi.model.Categories;@a0d88b0,{Set-Cookie=[JSESSIONID=44C4FED0F56338DB455E4F50C5B40311; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 02:48:56 GMT]}>
+30/09/20 23:48:53 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:48:53 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 23:48:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/tests/update, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwNTM2LCJleHAiOjE2MDE2MDY5MzZ9.2z6o1neRc-h6hXrZM-gAGFYAwxSuWZZAO6rVi_TYlKxW1euCa6_GWXPTcVgBvD-1pV6xqzQdF-FA78tP2teLNA, Content-Type=application/json}, {"reportName":"Crowdar","level":"1","name":"hostapi","status":"OK","bdd":true,"bddType":"MariaDB","childNodesLength":1,"endTime":"2030-09-29T04:08:49.492Z","startTime":"2030-09-29T04:08:49.492Z","description":"Prueba de update"}
+30/09/20 23:48:53 INFO  RestClient:90 - >>>Response: <201 Created,{Set-Cookie=[JSESSIONID=AA58BABF0CAE4D64CF45C41ECD52D8AE; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Thu, 01 Oct 2020 02:48:56 GMT]}>
+30/09/20 23:48:53 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 23:48:53 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:48:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwNTM2LCJleHAiOjE2MDE2MDY5MzZ9.2z6o1neRc-h6hXrZM-gAGFYAwxSuWZZAO6rVi_TYlKxW1euCa6_GWXPTcVgBvD-1pV6xqzQdF-FA78tP2teLNA}
+30/09/20 23:48:53 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@1335a027,{Set-Cookie=[JSESSIONID=9E37366DEB078D427E283B1810078A8F; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 02:48:58 GMT]}>
+30/09/20 23:48:53 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:48:53 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:48:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwNTM2LCJleHAiOjE2MDE2MDY5MzZ9.2z6o1neRc-h6hXrZM-gAGFYAwxSuWZZAO6rVi_TYlKxW1euCa6_GWXPTcVgBvD-1pV6xqzQdF-FA78tP2teLNA, Content-Type=application/json}
+30/09/20 23:48:54 INFO  RestClient:90 - >>>Response: <200 OK,{Set-Cookie=[JSESSIONID=106F6236CA84D6D400B6B3694A7E6CB0; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Thu, 01 Oct 2020 02:48:58 GMT]}>
+30/09/20 23:48:54 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:49:27 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 23:49:27 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 23:49:29 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@7debca80,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Thu, 01 Oct 2020 02:49:34 GMT]}>
+30/09/20 23:49:29 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 23:49:29 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:49:29 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTimeTakenAverageOverNReports, {reportsLength=0}, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwNTc0LCJleHAiOjE2MDE2MDY5NzR9.ysSh_YKljRqLG_EHAM723Mvpn56NSidNiMU1gpqD7XbcYpv_e4Zf9r3m3lLwVYsBJQnj2-c-m766jFt1O_jm0A}
+30/09/20 23:49:29 INFO  RestClient:90 - >>>Response: <200 OK,[Lapi.model.Categories;@7d9e2db9,{Set-Cookie=[JSESSIONID=2C3268473B95A1ACD9432A08057327C5; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 02:49:34 GMT]}>
+30/09/20 23:49:29 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:49:29 INFO  BasicHook:20 - ------ Starting -----Busco datos de las categorias-----
+30/09/20 23:49:29 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/categories/search/getCategoryTestLengthAverageOverNReports, {reportsLength=0}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwNTc0LCJleHAiOjE2MDE2MDY5NzR9.ysSh_YKljRqLG_EHAM723Mvpn56NSidNiMU1gpqD7XbcYpv_e4Zf9r3m3lLwVYsBJQnj2-c-m766jFt1O_jm0A, Content-Type=application/json}
+30/09/20 23:49:30 INFO  RestClient:90 - >>>Response: <200 OK,[Lapi.model.Categories;@6a863b84,{Set-Cookie=[JSESSIONID=7D1286738BE6B5A2DD3BC33E9D48CBC0; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 02:49:34 GMT]}>
+30/09/20 23:49:30 INFO  BasicHook:35 - ------ Ending -----Busco datos de las categorias-----
+30/09/20 23:49:30 INFO  BasicHook:20 - ------ Starting -----A scenario-----
+30/09/20 23:49:30 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/tests/update, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwNTc0LCJleHAiOjE2MDE2MDY5NzR9.ysSh_YKljRqLG_EHAM723Mvpn56NSidNiMU1gpqD7XbcYpv_e4Zf9r3m3lLwVYsBJQnj2-c-m766jFt1O_jm0A, Content-Type=application/json}, {"reportName":"Crowdar","level":"1","name":"hostapi","status":"OK","bdd":true,"bddType":"MariaDB","childNodesLength":1,"endTime":"2030-09-29T04:08:49.492Z","startTime":"2030-09-29T04:08:49.492Z","description":"Prueba de update"}
+30/09/20 23:49:30 INFO  RestClient:90 - >>>Response: <201 Created,{Set-Cookie=[JSESSIONID=74F713F1DB5C8DF235E5C6EF8C53E17C; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Thu, 01 Oct 2020 02:49:34 GMT]}>
+30/09/20 23:49:30 INFO  BasicHook:35 - ------ Ending -----A scenario-----
+30/09/20 23:49:30 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:49:30 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwNTc0LCJleHAiOjE2MDE2MDY5NzR9.ysSh_YKljRqLG_EHAM723Mvpn56NSidNiMU1gpqD7XbcYpv_e4Zf9r3m3lLwVYsBJQnj2-c-m766jFt1O_jm0A}
+30/09/20 23:49:30 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCrowdar@f29a0ee,{Set-Cookie=[JSESSIONID=4FF166A125AFDE7AB5BECBB3F56A4F7A; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Thu, 01 Oct 2020 02:49:34 GMT]}>
+30/09/20 23:49:30 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
+30/09/20 23:49:30 INFO  BasicHook:20 - ------ Starting -----Solicito mi usuario-----
+30/09/20 23:49:30 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/remove, {id=admin}, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTIwNTc0LCJleHAiOjE2MDE2MDY5NzR9.ysSh_YKljRqLG_EHAM723Mvpn56NSidNiMU1gpqD7XbcYpv_e4Zf9r3m3lLwVYsBJQnj2-c-m766jFt1O_jm0A, Content-Type=application/json}
+30/09/20 23:49:30 INFO  RestClient:90 - >>>Response: <200 OK,{Set-Cookie=[JSESSIONID=C92D5810CEC620469E791750D82B4FD7; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Length=[0], Date=[Thu, 01 Oct 2020 02:49:35 GMT]}>
+30/09/20 23:49:30 INFO  BasicHook:35 - ------ Ending -----Solicito mi usuario-----
