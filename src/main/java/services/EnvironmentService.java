@@ -7,8 +7,8 @@ import com.crowdar.api.rest.Response;
 
 public class EnvironmentService extends MethodsService {
 
-	public static Response get(String jsonName, Map<String, String> parameters) {
-		return get(jsonName, null, parameters);
+	public static Response get(String jsonName, Map<String, String> params) {
+        params.put("token", "Bearer ".concat(UserService.TOKEN.get()));
+		return get(jsonName, null, params);
 	}
-
 }

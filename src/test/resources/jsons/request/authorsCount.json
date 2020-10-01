@@ -1,8 +1,11 @@
 {
 	"url": "",
 	"headers": {
-		"Authorization": ""
+		"Content-Type": "application/json",
+		"Authorization": "{{token}}"
 	},
-	"urlParameters": {},
+	"urlParameters": {
+		
+	},
 	"endpoint": "/user/authenticate"
 }

@@ -4,28 +4,47 @@ import api.config.EntityConfiguration;
 import api.model.User;
 import com.crowdar.api.rest.APIManager;
 import com.crowdar.core.PageSteps;
+import com.google.api.client.repackaged.com.google.common.base.Splitter;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import services.UserService;
 
+import org.apache.commons.lang.StringUtils;
 import org.testng.Assert;
 
 import java.lang.reflect.InvocationTargetException;
+import java.util.Map;
 
 @SuppressWarnings("deprecation")
 public class UserSteps extends PageSteps {
 
 	@SuppressWarnings({ "deprecation" })
-	@When("^Realizo una peticion '(.*)' hacia '(.*)' endpoint con el archivo '(.*)'$")
-	public void doRequest(String methodName, String entity, String jsonName) throws IllegalAccessException,
+	@When("^Realizo una peticion '(.*)' hacia '(.*)' endpoint con el archivo '(.*)' y parametros '(.*)'$")
+	public void doRequest(String methodName, String entity, String jsonName, String jsonReplacementValues) throws IllegalAccessException,
 			IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
 
-		EntityConfiguration.valueOf(entity).getEntityService().getMethod(methodName.toLowerCase(), String.class)
-				.invoke("", jsonName);
+		 Class<?> entityService = EntityConfiguration.valueOf(entity).getEntityService();
+		
+		 Map<String, String> parameters = getParameters(jsonReplacementValues);
+	       
+	        if (parameters == null) {
+	            entityService.getMethod(methodName.toLowerCase(), String.class).invoke("", jsonName);
+	        } else {
+	            entityService.getMethod(methodName.toLowerCase(), String.class, Map.class).invoke("", jsonName, parameters);
+	        }
 
 	}
+	
+	@SuppressWarnings("unused")
+	private Map<String, String> getParameters(String jsonReplacementValues) {
+        Map<String, String> parameters = null;
+        if (!StringUtils.isEmpty(jsonReplacementValues)) {
+            parameters = Splitter.on(",").withKeyValueSeparator(":").split(jsonReplacementValues);
+        }
+        return parameters;
+    }
 
 	@SuppressWarnings("deprecation")
 	@Then("^Obtengo el codigo de estado '(.*)'$")

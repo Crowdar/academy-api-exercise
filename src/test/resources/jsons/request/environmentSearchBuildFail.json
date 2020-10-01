@@ -5,7 +5,8 @@
 		"Authorization": "{{token}}"
 	},
 	"urlParameters": {
-		
+		 "name": "{{name}}",
+    	"value": "{{value}}"
 	},
-	"endpoint": "/rest/authors/distinct"
+	"endpoint": "/rest/environment/search/findBuilds"
 }
