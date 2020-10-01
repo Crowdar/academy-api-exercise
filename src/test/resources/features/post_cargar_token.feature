@@ -3,7 +3,7 @@ Feature: Swagger_UI API
   DESEO obtener el token
   PARA realizar testing automatizados con un parametro persistido
 
-  @CrearToken @swaggerTest
+  @CrearToken @swaggerTest @Success
   Scenario Outline: Crear Token
     When realizo una peticion '<operation>' a '<entity>' al endpoint - '<request>'
     Then obtengo el codigo de status '<statusCode>'
