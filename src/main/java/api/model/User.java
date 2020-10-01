@@ -1,16 +1,13 @@
 package api.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class User {
-    @JsonProperty("id")
+
     private String id;
-    @JsonProperty("name")
     private String name;
-    @JsonProperty("password")
     private String password;
-    @JsonProperty("role")
     private String role;
+
 
     public String getId() {
         return id;

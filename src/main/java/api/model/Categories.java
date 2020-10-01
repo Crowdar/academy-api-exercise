@@ -1,12 +1,11 @@
 package api.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Categories {
-    @JsonProperty("name")
+
     private String name;
-    @JsonProperty("total")
     private String total;
+
 
     public String getName() {
         return name;

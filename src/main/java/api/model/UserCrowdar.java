@@ -1,11 +1,10 @@
 package api.model;
 
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.util.Map;
 
 public class UserCrowdar {
+
     private Map<String,String > projectRole;
 
     private Boolean admin;
@@ -24,6 +23,7 @@ public class UserCrowdar {
     private String role;
     private String url;
     private String id;
+
 
     public Map<String, String> getProjectRole() {
         return projectRole;

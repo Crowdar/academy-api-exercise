@@ -1,22 +1,14 @@
 package api.model;
 
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 public class UserToken {
+    private int expires;
 
     private String jwt;
-    private int expires;
     private String username;
+
     private String[] role;
 
-    public String getJwt() {
-        return jwt;
-    }
-
-    public void setJwt(String jwt) {
-        this.jwt = jwt;
-    }
 
     public int getExpires() {
         return expires;
@@ -24,6 +16,14 @@ public class UserToken {
 
     public void setExpires(int expires) {
         this.expires = expires;
+    }
+
+    public String getJwt() {
+        return jwt;
+    }
+
+    public void setJwt(String jwt) {
+        this.jwt = jwt;
     }
 
     public String getUsername() {

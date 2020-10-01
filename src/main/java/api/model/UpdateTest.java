@@ -1,35 +1,27 @@
 package api.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class UpdateTest {
-    @JsonProperty("reportName")
-    private String reportName;
-    @JsonProperty("level")
-    private int level;
-    @JsonProperty("name")
-    private String name;
-    @JsonProperty("status")
-    private String status;
-    @JsonProperty("bdd")
     private boolean bdd;
-    @JsonProperty("bddType")
-    private String bddType;
-    @JsonProperty("childNodesLength")
+
+    private int level;
     private int childNodesLength;
-    @JsonProperty("endTime")
+
+    private String reportName;
+    private String name;
+    private String status;
+    private String bddType;
     private String endTime;
-    @JsonProperty("startTime")
     private String startTime;
-    @JsonProperty("description")
     private String description;
 
-    public String getReportName() {
-        return reportName;
+
+    public boolean isBdd() {
+        return bdd;
     }
 
-    public void setReportName(String reportName) {
-        this.reportName = reportName;
+    public void setBdd(boolean bdd) {
+        this.bdd = bdd;
     }
 
     public int getLevel() {
@@ -38,6 +30,22 @@ public class UpdateTest {
 
     public void setLevel(int level) {
         this.level = level;
+    }
+
+    public int getChildNodesLength() {
+        return childNodesLength;
+    }
+
+    public void setChildNodesLength(int childNodesLength) {
+        this.childNodesLength = childNodesLength;
+    }
+
+    public String getReportName() {
+        return reportName;
+    }
+
+    public void setReportName(String reportName) {
+        this.reportName = reportName;
     }
 
     public String getName() {
@@ -56,28 +64,12 @@ public class UpdateTest {
         this.status = status;
     }
 
-    public boolean isBdd() {
-        return bdd;
-    }
-
-    public void setBdd(boolean bdd) {
-        this.bdd = bdd;
-    }
-
     public String getBddType() {
         return bddType;
     }
 
     public void setBddType(String bddType) {
         this.bddType = bddType;
-    }
-
-    public int getChildNodesLength() {
-        return childNodesLength;
-    }
-
-    public void setChildNodesLength(int childNodesLength) {
-        this.childNodesLength = childNodesLength;
     }
 
     public String getEndTime() {

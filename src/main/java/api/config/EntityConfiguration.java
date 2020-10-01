@@ -30,12 +30,6 @@ public enum EntityConfiguration {
         public Class<?> getEntityService() {
             return TokenService.class;
         }
-    },
-    USER_CROWDAR {
-        @Override
-        public Class<?> getEntityService() {
-            return UserCrowdarService.class;
-        }
     };
 
     public abstract Class<?> getEntityService();
