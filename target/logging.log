@@ -1,0 +1,185 @@
+29/09/20 15:04:51 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 15:04:51 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config, {id=2}, {Content-Type=application/json}
+29/09/20 15:04:53 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 15:04:53 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 15:04:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config, {Content-Type=application/json}, {"name":"test","job":"leader"}
+29/09/20 15:04:53 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 405 
+29/09/20 15:04:53 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCreated), not marked as ignorable (3 known properties: "name", "job", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-29T18:04:53.375+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/swagger-ui/index.html"}"; line: 1, column: 15] (through reference chain: api.model.UserCreated["timestamp"])
+29/09/20 15:04:53 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 15:04:53 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 15:04:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config, {Content-Type=application/json}, {"name":"test","job":"leader"}
+29/09/20 15:04:53 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 405 
+29/09/20 15:04:53 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCreated), not marked as ignorable (3 known properties: "name", "job", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-29T18:04:53.603+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/swagger-ui/index.html"}"; line: 1, column: 15] (through reference chain: api.model.UserCreated["timestamp"])
+29/09/20 15:04:53 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 15:04:53 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 15:04:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config, {Content-Type=application/json}, {"name":"test","job":"leader"}
+29/09/20 15:04:54 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 405 
+29/09/20 15:04:54 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCreated), not marked as ignorable (3 known properties: "name", "job", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-29T18:04:53.833+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/swagger-ui/index.html"}"; line: 1, column: 15] (through reference chain: api.model.UserCreated["timestamp"])
+29/09/20 15:04:54 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 15:04:54 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+29/09/20 15:04:54 INFO  MethodsService:109 - >>>Request: https://postman-echo.com/response-headers, {foo1=bar1, foo2=bar2}
+29/09/20 15:04:55 INFO  RestClient:90 - >>>Response: <200 OK,api.model.ResponseHeaders@ddb9fd8,{Date=[Tue, 29 Sep 2020 18:04:55 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[29], Connection=[keep-alive], foo1=[bar1], foo2=[bar2], ETag=[W/"1d-PgOLWVqd2mMvcpNzTF0Cfy4hftg"], Vary=[Accept-Encoding], set-cookie=[sails.sid=s%3A_PTxSqnlnF-uo_dj3279wg7d8k6HBR6m.FWC%2BKPXkkPSZLrX80Ouelf9IsqoMPN16bUfFVVX2lKY; Path=/; HttpOnly]}>
+29/09/20 15:04:55 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+29/09/20 15:06:00 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 15:06:01 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config, {id=2}, {Content-Type=application/json}
+29/09/20 15:06:02 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 15:06:02 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 15:06:02 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config, {Content-Type=application/json}, {"name":"test","job":"leader"}
+29/09/20 15:06:02 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 405 
+29/09/20 15:06:02 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCreated), not marked as ignorable (3 known properties: "name", "job", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-29T18:06:02.645+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/swagger-ui/index.html"}"; line: 1, column: 15] (through reference chain: api.model.UserCreated["timestamp"])
+29/09/20 15:06:02 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 15:06:02 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 15:06:02 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config, {Content-Type=application/json}, {"name":"test","job":"leader"}
+29/09/20 15:06:03 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 405 
+29/09/20 15:06:03 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCreated), not marked as ignorable (3 known properties: "name", "job", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-29T18:06:02.900+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/swagger-ui/index.html"}"; line: 1, column: 15] (through reference chain: api.model.UserCreated["timestamp"])
+29/09/20 15:06:03 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 15:06:03 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 15:06:03 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config, {Content-Type=application/json}, {"name":"test","job":"leader"}
+29/09/20 15:06:03 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 405 
+29/09/20 15:06:03 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCreated), not marked as ignorable (3 known properties: "name", "job", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-29T18:06:03.202+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/swagger-ui/index.html"}"; line: 1, column: 15] (through reference chain: api.model.UserCreated["timestamp"])
+29/09/20 15:06:03 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 15:06:03 INFO  BasicHook:20 - ------ Starting -----Example scenario for error 500-----
+29/09/20 15:06:03 INFO  BasicHook:35 - ------ Ending -----Example scenario for error 500-----
+29/09/20 15:06:03 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+29/09/20 15:06:03 INFO  MethodsService:109 - >>>Request: https://postman-echo.com/response-headers, {foo1=bar1, foo2=bar2}
+29/09/20 15:06:07 INFO  RestClient:90 - >>>Response: <200 OK,api.model.ResponseHeaders@6b22c79f,{Date=[Tue, 29 Sep 2020 18:06:07 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[29], Connection=[keep-alive], foo1=[bar1], foo2=[bar2], ETag=[W/"1d-PgOLWVqd2mMvcpNzTF0Cfy4hftg"], Vary=[Accept-Encoding], set-cookie=[sails.sid=s%3Ae_YTUtCVykoczNokst1zt4AD1rr_jP52.7ud7ib%2F%2BxIxfTKyAjP8HNm%2FgEjRG3iDA7UEpMoBWMTw; Path=/; HttpOnly]}>
+29/09/20 15:06:07 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+29/09/20 15:07:51 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 15:07:52 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config, {id=2}, {Content-Type=application/json}
+29/09/20 15:07:53 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 15:07:53 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 15:07:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config, {Content-Type=application/json}, {"name":"test","job":"leader"}
+29/09/20 15:07:53 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 405 
+29/09/20 15:07:53 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCreated), not marked as ignorable (3 known properties: "name", "job", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-29T18:07:53.553+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/swagger-ui/index.html"}"; line: 1, column: 15] (through reference chain: api.model.UserCreated["timestamp"])
+29/09/20 15:07:53 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 15:07:53 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 15:07:53 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config, {Content-Type=application/json}, {"name":"test","job":"leader"}
+29/09/20 15:07:54 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 405 
+29/09/20 15:07:54 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCreated), not marked as ignorable (3 known properties: "name", "job", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-29T18:07:53.946+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/swagger-ui/index.html"}"; line: 1, column: 15] (through reference chain: api.model.UserCreated["timestamp"])
+29/09/20 15:07:54 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 15:07:54 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 15:07:54 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config, {Content-Type=application/json}, {"name":"test","job":"leader"}
+29/09/20 15:07:54 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 405 
+29/09/20 15:07:54 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.UserCreated), not marked as ignorable (3 known properties: "name", "job", "id"])
+ at [Source: (String)"{"timestamp":"2020-09-29T18:07:54.213+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/swagger-ui/index.html"}"; line: 1, column: 15] (through reference chain: api.model.UserCreated["timestamp"])
+29/09/20 15:07:54 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 16:04:02 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-----
+29/09/20 16:04:02 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-----
+29/09/20 17:19:08 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+29/09/20 17:19:08 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+29/09/20 17:59:31 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 17:59:32 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {id=2}, {Content-Type=application/json}
+29/09/20 17:59:34 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Data@518cf84a,{Date=[Tue, 29 Sep 2020 20:59:34 GMT], Content-Type=[application/json; charset=utf-8], Transfer-Encoding=[chunked], Connection=[keep-alive], Set-Cookie=[__cfduid=de97333941b6311b378836c7f2dbd03651601413174; expires=Thu, 29-Oct-20 20:59:34 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"], Via=[1.1 vegur], Cache-Control=[max-age=14400], CF-Cache-Status=[REVALIDATED], cf-request-id=[057d42ebb6000025806c0bc200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=16&lkg-time=1601413174"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Vary=[Accept-Encoding], Server=[cloudflare], CF-RAY=[5da8a0f2bfcf2580-IAD]}>
+29/09/20 17:59:34 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 17:59:34 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 17:59:34 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+29/09/20 17:59:34 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@253b380a,{Date=[Tue, 29 Sep 2020 20:59:34 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-JUEZNvkzrLeuC2Gl5/NmcN1Q9Eo"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[057d42ed92000025806c0e8200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=16&lkg-time=1601413175"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5da8a0f5be1c2580-IAD]}>
+29/09/20 17:59:34 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 17:59:34 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 17:59:34 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+29/09/20 17:59:35 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@3350ebdd,{Date=[Tue, 29 Sep 2020 20:59:35 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-Ki/EdFuUhwyPMcDhN/4l+PU8Rvs"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[057d42ef29000025806c0ff200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=16&lkg-time=1601413175"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5da8a0f84bb22580-IAD]}>
+29/09/20 17:59:35 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 17:59:35 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+29/09/20 17:59:35 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"name":"test","job":"leader"}
+29/09/20 17:59:35 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserCreated@149f5761,{Date=[Tue, 29 Sep 2020 20:59:35 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[80], Connection=[keep-alive], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"50-7FwvHLA0WsAJ9t4d7mEGlgRjeMI"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[057d42f0bb000025806c111200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=16&lkg-time=1601413176"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5da8a0fac8eb2580-IAD]}>
+29/09/20 17:59:35 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+29/09/20 17:59:35 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+29/09/20 17:59:35 INFO  MethodsService:109 - >>>Request: https://postman-echo.com/response-headers, {foo1=bar1, foo2=bar2}
+29/09/20 17:59:36 INFO  RestClient:90 - >>>Response: <200 OK,api.model.ResponseHeaders@1cc9cfb2,{Date=[Tue, 29 Sep 2020 20:59:36 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[29], Connection=[keep-alive], foo1=[bar1], foo2=[bar2], ETag=[W/"1d-PgOLWVqd2mMvcpNzTF0Cfy4hftg"], Vary=[Accept-Encoding], set-cookie=[sails.sid=s%3AR0rq99vQRG6IUY2oMK-v3yNvFmdjBr6Z.fdTgL3gIuztW2pAineeDxoPsnExSDJY%2B4B0nW47paOE; Path=/; HttpOnly]}>
+29/09/20 17:59:36 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+30/09/20 13:45:18 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 13:45:18 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 13:45:59 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 13:45:59 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 14:09:07 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 14:09:07 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 14:13:16 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 14:13:16 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 14:17:16 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 14:17:16 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 16:36:16 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 16:36:16 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 16:37:05 INFO  BasicHook:20 - ------ Starting -----Obtener informaci贸n del user-rest-controller-----
+30/09/20 16:37:05 INFO  BasicHook:35 - ------ Ending -----Obtener informaci贸n del user-rest-controller-----
+30/09/20 16:39:38 INFO  BasicHook:20 - ------ Starting -----Obtener informaci贸n del user-rest-controller-----
+30/09/20 16:39:38 INFO  BasicHook:35 - ------ Ending -----Obtener informaci贸n del user-rest-controller-----
+30/09/20 16:40:05 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 16:40:05 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 16:44:32 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 16:44:32 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 16:49:23 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 16:49:23 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 16:57:50 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 16:57:50 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 16:59:46 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 16:59:46 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 17:12:06 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 17:12:06 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 17:19:20 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 17:19:20 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 17:25:08 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 17:25:08 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 17:45:32 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 17:45:32 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 17:50:37 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 17:50:37 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDA4OTk3LCJleHAiOjE2MDE0OTUzOTd9.PSR-J_MlCah-4CJdtBl6ldq31nFmGhO9vLMlLuKUCjErPvce9S09LxvV3_7PmQDRFygh0a3PwAw_7-nz7IEL0A}
+30/09/20 17:50:39 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 17:50:39 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 17:51:43 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 17:51:43 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDA4OTk3LCJleHAiOjE2MDE0OTUzOTd9.PSR-J_MlCah-4CJdtBl6ldq31nFmGhO9vLMlLuKUCjErPvce9S09LxvV3_7PmQDRFygh0a3PwAw_7-nz7IEL0A}
+30/09/20 17:51:44 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 17:51:44 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 17:53:06 INFO  BasicHook:20 - ------ Starting -----Obtener informaci贸n del user-rest-controller-----
+30/09/20 17:53:06 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDA4OTk3LCJleHAiOjE2MDE0OTUzOTd9.PSR-J_MlCah-4CJdtBl6ldq31nFmGhO9vLMlLuKUCjErPvce9S09LxvV3_7PmQDRFygh0a3PwAw_7-nz7IEL0A}
+30/09/20 17:53:08 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 17:53:08 INFO  BasicHook:35 - ------ Ending -----Obtener informaci贸n del user-rest-controller-----
+30/09/20 17:53:48 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 17:53:48 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDA4OTk3LCJleHAiOjE2MDE0OTUzOTd9.PSR-J_MlCah-4CJdtBl6ldq31nFmGhO9vLMlLuKUCjErPvce9S09LxvV3_7PmQDRFygh0a3PwAw_7-nz7IEL0A}
+30/09/20 17:53:50 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 17:53:50 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 18:39:06 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 18:39:06 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTAxODQxLCJleHAiOjE2MDE1ODgyNDF9.Po9EmUHW7gpuJVVDWCk0Bb1z3slgdQU8JYqFWDCXNmQorfxu8JxKSa_1b53ztauqHnp8wLPDENo9trRUHWz-zQ}
+30/09/20 18:39:08 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 18:39:08 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 18:40:03 INFO  BasicHook:20 - ------ Starting -----Obtener informaci贸n del user-rest-controller-----
+30/09/20 18:40:03 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTAxODQxLCJleHAiOjE2MDE1ODgyNDF9.Po9EmUHW7gpuJVVDWCk0Bb1z3slgdQU8JYqFWDCXNmQorfxu8JxKSa_1b53ztauqHnp8wLPDENo9trRUHWz-zQ}
+30/09/20 18:40:16 INFO  BasicHook:20 - ------ Starting -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 18:40:17 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTAxODQxLCJleHAiOjE2MDE1ODgyNDF9.Po9EmUHW7gpuJVVDWCk0Bb1z3slgdQU8JYqFWDCXNmQorfxu8JxKSa_1b53ztauqHnp8wLPDENo9trRUHWz-zQ}
+30/09/20 18:40:18 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 18:40:18 INFO  BasicHook:35 - ------ Ending -----Obtener informaci髇 del user-rest-controller-----
+30/09/20 18:41:12 INFO  BasicHook:20 - ------ Starting -----Obtener informaci贸n del user-rest-controller-----
+30/09/20 18:41:12 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Content-Type=application/json, Authorization=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTAxODQxLCJleHAiOjE2MDE1ODgyNDF9.Po9EmUHW7gpuJVVDWCk0Bb1z3slgdQU8JYqFWDCXNmQorfxu8JxKSa_1b53ztauqHnp8wLPDENo9trRUHWz-zQ}
+30/09/20 18:41:14 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 18:41:14 INFO  BasicHook:35 - ------ Ending -----Obtener informaci贸n del user-rest-controller-----
+30/09/20 19:17:36 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 19:17:36 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 19:17:36 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 19:17:36 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 19:17:36 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 19:17:36 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 19:17:36 INFO  BasicHook:20 - ------ Starting -----Example scenario for get user data-----
+30/09/20 19:17:36 INFO  BasicHook:35 - ------ Ending -----Example scenario for get user data-----
+30/09/20 19:17:36 INFO  BasicHook:20 - ------ Starting -----Example scenario for input parameters-----
+30/09/20 19:17:36 INFO  BasicHook:35 - ------ Ending -----Example scenario for input parameters-----
+30/09/20 19:17:36 INFO  BasicHook:20 - ------ Starting -----Obtener el token del user-----
+30/09/20 19:17:36 INFO  BasicHook:35 - ------ Ending -----Obtener el token del user-----
+30/09/20 19:19:48 INFO  BasicHook:20 - ------ Starting -----Obtener el token del user-----
+30/09/20 19:19:48 INFO  BasicHook:35 - ------ Ending -----Obtener el token del user-----
+30/09/20 19:21:04 INFO  BasicHook:20 - ------ Starting -----Obtener el token del user-----
+30/09/20 19:21:04 INFO  BasicHook:35 - ------ Ending -----Obtener el token del user-----
+30/09/20 19:26:46 INFO  BasicHook:20 - ------ Starting -----Obtener el token del user-----
+30/09/20 19:26:46 INFO  BasicHook:35 - ------ Ending -----Obtener el token del user-----
+30/09/20 19:30:48 INFO  BasicHook:20 - ------ Starting -----Obtener el token del user-----
+30/09/20 19:30:48 INFO  BasicHook:35 - ------ Ending -----Obtener el token del user-----
+30/09/20 19:33:46 INFO  BasicHook:20 - ------ Starting -----Obtener el token del user-----
+30/09/20 19:33:47 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 19:33:48 INFO  RestClient:90 - >>>Response: <200 OK,api.model.AuthoredUsers@d95e410,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 22:33:48 GMT]}>
+30/09/20 19:33:48 INFO  BasicHook:35 - ------ Ending -----Obtener el token del user-----

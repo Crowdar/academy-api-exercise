@@ -1,0 +1,8 @@
+{
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNTAxODQxLCJleHAiOjE2MDE1ODgyNDF9.Po9EmUHW7gpuJVVDWCk0Bb1z3slgdQU8JYqFWDCXNmQorfxu8JxKSa_1b53ztauqHnp8wLPDENo9trRUHWz-zQ"
+  },
+  "urlParameters": {},
+  "endpoint": "rest/user/me"
+}
