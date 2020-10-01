@@ -11,7 +11,7 @@ public class CategoriesService extends MethodsService {
 
     public static Response get(String jsonName) {
         Map<String, String> params = new HashMap<String, String>();
-        params.put("token", "Bearer ".concat(UserCrowdarService.TOKEN.get()));
+        params.put("token", "Bearer ".concat(UserService.TOKEN.get()));
         return get(jsonName, Categories[].class, params);
     }
 }

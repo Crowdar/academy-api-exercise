@@ -1,7 +1,7 @@
 package api.model;
 
 
-public class UserToken {
+public class Token {
     private int expires;
 
     private String jwt;

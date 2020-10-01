@@ -3,14 +3,13 @@ package ar.steps;
 import api.config.EntityConfiguration;
 import api.model.Categories;
 import api.model.User;
-import api.model.UserCrowdar;
 import com.crowdar.api.rest.APIManager;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
-import api.model.UserToken;
-import services.UserCrowdarService;
+import api.model.Token;
+import services.UserService;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -37,8 +36,8 @@ public class CrowdarApi {
     public void laInformacionEsCorrectaRespectoAResponse(String jsonName) throws IOException {
         switch (jsonName) {
             case "user_me":
-                UserCrowdar actUser = (UserCrowdar) APIManager.getLastResponse().getResponse();
-                UserCrowdar expUser = APIManager.getResponseFromJsonFile(jsonName, UserCrowdar.class);
+                User actUser = (User) APIManager.getLastResponse().getResponse();
+                User expUser = APIManager.getResponseFromJsonFile(jsonName, User.class);
 
                 Assert.assertEquals(actUser.getId(), expUser.getId());
                 Assert.assertEquals(actUser.getRole(), expUser.getRole());
@@ -54,8 +53,8 @@ public class CrowdarApi {
 
                 break;
             case "remv_1":
-                UserCrowdar actUserRemove = (UserCrowdar) APIManager.getLastResponse().getResponse();
-                UserCrowdar expUserRemove = APIManager.getResponseFromJsonFile(jsonName, UserCrowdar.class);
+                User actUserRemove = (User) APIManager.getLastResponse().getResponse();
+                User expUserRemove = APIManager.getResponseFromJsonFile(jsonName, User.class);
 
                 Assert.assertEquals(actUserRemove, expUserRemove);
 
@@ -67,7 +66,7 @@ public class CrowdarApi {
 
     @Then("guardo el token")
     public void guardoElToken() {
-            UserToken response = (UserToken) APIManager.getLastResponse().getResponse();
-            UserCrowdarService.TOKEN.set(response.getJwt());
+            Token response = (Token) APIManager.getLastResponse().getResponse();
+            UserService.TOKEN.set(response.getJwt());
     }
 }

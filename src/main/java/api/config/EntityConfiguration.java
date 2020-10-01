@@ -7,7 +7,7 @@ public enum EntityConfiguration {
     USER {
         @Override
         public Class<?> getEntityService() {
-            return UserCrowdarService.class;
+            return UserService.class;
         }
 
     },

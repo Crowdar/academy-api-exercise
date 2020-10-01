@@ -12,7 +12,7 @@ public class UpdateService extends MethodsService {
 
     public static Response post(String jsonName) {
         Map<String, String> params = new HashMap<String, String>();
-        params.put("token", "Bearer ".concat(UserCrowdarService.TOKEN.get()));
+        params.put("token", "Bearer ".concat(UserService.TOKEN.get()));
         return post(jsonName, UpdateTest.class, params);
     }
 }

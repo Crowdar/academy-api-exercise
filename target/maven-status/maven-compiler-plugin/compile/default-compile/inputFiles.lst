@@ -1,10 +1,9 @@
 E:\Datos\academy-api-exercise\src\main\java\api\model\User.java
 E:\Datos\academy-api-exercise\src\main\java\services\UpdateService.java
 E:\Datos\academy-api-exercise\src\main\java\api\model\UpdateTest.java
-E:\Datos\academy-api-exercise\src\main\java\api\model\UserCrowdar.java
-E:\Datos\academy-api-exercise\src\main\java\services\UserCrowdarService.java
+E:\Datos\academy-api-exercise\src\main\java\services\UserService.java
 E:\Datos\academy-api-exercise\src\main\java\services\CategoriesService.java
 E:\Datos\academy-api-exercise\src\main\java\services\TokenService.java
-E:\Datos\academy-api-exercise\src\main\java\api\model\UserToken.java
 E:\Datos\academy-api-exercise\src\main\java\api\model\Categories.java
 E:\Datos\academy-api-exercise\src\main\java\api\config\EntityConfiguration.java
+E:\Datos\academy-api-exercise\src\main\java\api\model\Token.java
