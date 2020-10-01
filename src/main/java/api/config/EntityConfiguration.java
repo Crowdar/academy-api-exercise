@@ -1,7 +1,7 @@
 package api.config;
 
-import services.ResponseHeadersService;
-import services.UserService;
+import api.model.CategoryTimeTaken;
+import services.*;
 
 public enum EntityConfiguration {
 
@@ -16,6 +16,24 @@ public enum EntityConfiguration {
         @Override
         public Class<?> getEntityService() {
             return ResponseHeadersService.class;
+        }
+    },
+    CATEGORYTIMETAKEN {
+        @Override
+        public Class<?> getEntityService() {
+            return CategoryTimeTakenService.class;
+        }
+    },
+    TESTSUPDATE {
+        @Override
+        public Class<?> getEntityService() {
+            return TestsUpdateService.class;
+        }
+    },
+    TOKEN {
+        @Override
+        public Class<?> getEntityService() {
+            return TokenService.class;
         }
     };
 
