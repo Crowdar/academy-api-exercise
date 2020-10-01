@@ -2,6 +2,8 @@ package api.config;
 
 import services.ResponseHeadersService;
 import services.UserService;
+import services.AuthorsService;
+import services.EnvironmentService;
 
 public enum EntityConfiguration {
 
@@ -11,6 +13,18 @@ public enum EntityConfiguration {
             return UserService.class;
         }
 
+    },
+    AUTHORS{
+    	@Override
+    	public Class<?> getEntityService() {
+            return AuthorsService.class;
+        }
+    },
+    ENVIRONMENT{
+    	@Override
+    	public Class<?> getEntityService() {
+            return EnvironmentService.class;
+        }
     },
     RESPONSE_HEADERS {
         @Override
