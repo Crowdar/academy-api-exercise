@@ -1,0 +1,256 @@
+30/09/20 13:11:16 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:11:16 ERROR MethodsService:99 - D:\Acer\Documentos\Crowdar\academy-api-exercise\src\test\resources\jsons\request\gerearteToken.json (El sistema no puede encontrar el archivo especificado)
+30/09/20 13:11:16 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:12:41 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:12:41 ERROR MethodsService:99 - D:\Acer\Documentos\Crowdar\academy-api-exercise\src\test\resources\jsons\request\genearteToken.json (El sistema no puede encontrar el archivo especificado)
+30/09/20 13:12:41 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:13:30 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:13:30 ERROR MethodsService:99 - D:\Acer\Documentos\Crowdar\academy-api-exercise\src\test\resources\jsons\request\geneateToken.json (El sistema no puede encontrar el archivo especificado)
+30/09/20 13:13:30 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:14:50 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:14:50 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"username":"admin","password":"password"}
+30/09/20 13:14:53 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserToken@26e4beb3,{Date=[Wed, 30 Sep 2020 16:14:52 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[92], Connection=[keep-alive], Set-Cookie=[__cfduid=df94333c87ae57733706e70bbf5c5d8071601482492; expires=Fri, 30-Oct-20 16:14:52 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"5c-GsX2IYLli5fz6hE6nHmAiMW15rI"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[058164a1420000c86b45247200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=17&lkg-time=1601482493"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5daf3d486b2dc86b-MIA]}>
+30/09/20 13:14:53 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:17:29 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:17:29 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {Content-Type=application/json}, {"username":"admin","password":"password","endpoint":"user/authenticate"}
+30/09/20 13:17:34 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserToken@4ae45df5,{Date=[Wed, 30 Sep 2020 16:17:33 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[122], Connection=[keep-alive], Set-Cookie=[__cfduid=dca9dfbc7a65e4e13f4d9068b6cdb2cf21601482653; expires=Fri, 30-Oct-20 16:17:33 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"7a-36uW1bogpyZhn5kvgghISNYIs9o"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[05816716780000d53163335200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=17&lkg-time=1601482654"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5daf4137296cd531-MIA]}>
+30/09/20 13:17:34 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:18:24 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:18:25 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/users, {username=admin, password=password, endpoint=user/authenticate}, {Content-Type=application/json}
+30/09/20 13:18:27 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserToken@4ae45df5,{Date=[Wed, 30 Sep 2020 16:18:26 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[51], Connection=[keep-alive], Set-Cookie=[__cfduid=d10a0347b354c2c2e5012c5eb202d95971601482706; expires=Fri, 30-Oct-20 16:18:26 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"33-9+65+JhGMm435Z/ikCjmCliwloE"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[058167e57c000011a5b732a200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=17&lkg-time=1601482707"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5daf42826f1f11a5-MIA]}>
+30/09/20 13:18:27 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:19:27 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:19:27 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/usersuser/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:19:30 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserToken@1cada8f9,{Date=[Wed, 30 Sep 2020 16:19:29 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[51], Connection=[keep-alive], Set-Cookie=[__cfduid=d901dc9c96bfadbfa05b576744521f51e1601482769; expires=Fri, 30-Oct-20 16:19:29 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"33-2R/BlUl9sv3AJ0vOZy+VB5Ji+uU"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[058168db1300001277a00eb200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=17&lkg-time=1601482769"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5daf440b5bb11277-MIA]}>
+30/09/20 13:19:30 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:24:40 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:24:41 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/usersuser/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:24:43 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserToken@3cb134ef,{Date=[Wed, 30 Sep 2020 16:24:42 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[51], Connection=[keep-alive], Set-Cookie=[__cfduid=d8156f63a237318e986e3efb1eaf84deb1601483082; expires=Fri, 30-Oct-20 16:24:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"33-NxDCGW6aTM247IfNBTNMlZuzwpA"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[05816da2910000ef2a0b2da200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=17&lkg-time=1601483083"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5daf4bb0e8a7ef2a-MIA]}>
+30/09/20 13:24:43 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 13:25:38 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 13:25:39 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 13:25:40 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@28831dbb,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 16:25:39 GMT]}>
+30/09/20 13:25:40 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 14:19:18 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 14:19:18 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 14:19:19 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 14:19:19 INFO  MethodsService:109 - >>>Request: https://reqres.in/api/usersuser/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 14:19:21 INFO  RestClient:90 - >>>Response: <201 Created,api.model.UserToken@5008be13,{Date=[Wed, 30 Sep 2020 17:19:21 GMT], Content-Type=[application/json; charset=utf-8], Content-Length=[51], Connection=[keep-alive], Set-Cookie=[__cfduid=da985c5d209f8cb264e1eca6932189a1b1601486360; expires=Fri, 30-Oct-20 17:19:20 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure], X-Powered-By=[Express], Access-Control-Allow-Origin=[*], Etag=[W/"33-mNF90VG7KORyT53gWCv7aCDKgTw"], Via=[1.1 vegur], CF-Cache-Status=[DYNAMIC], cf-request-id=[05819fa8ec0000046125117200000001], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Report-To=[{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=17&lkg-time=1601486361"}],"group":"cf-nel","max_age":604800}], NEL=[{"report_to":"cf-nel","max_age":604800}], Server=[cloudflare], CF-RAY=[5daf9bbb1d580461-MIA]}>
+30/09/20 14:19:21 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 14:19:48 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 14:19:48 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 14:19:50 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@4999bb81,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 17:19:49 GMT]}>
+30/09/20 14:19:50 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 14:19:50 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 14:19:50 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/project/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg2Mzg5LCJleHAiOjE2MDE1NzI3ODl9.HHtHcuh9qaM8zsfi9KCDdLRhxhNH4ui4HOEUVnk_mj4aJ3R1gT1-v9nZc1lafyPla4xnsCsg7JnzCATtosb7Jg}
+30/09/20 14:19:50 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 404 
+30/09/20 14:19:50 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.Projects), not marked as ignorable (one known property: "content"])
+ at [Source: (String)"{"timestamp":"2020-09-30T17:19:49.807+0000","status":404,"error":"Not Found","message":"No message available","path":"/rest/project/q"}"; line: 1, column: 15] (through reference chain: api.model.Projects["timestamp"])
+30/09/20 14:19:50 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 14:23:15 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 14:23:16 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 14:23:17 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@16d334f,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 17:23:17 GMT]}>
+30/09/20 14:23:17 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 14:23:17 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 14:23:17 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/project/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg2NTk3LCJleHAiOjE2MDE1NzI5OTd9.mo1WFGTClub9DLOzEyTYCECpfAu22QyEWu-wsn69NXfYHTb2QCt6mIixjLqhVnQZ76K0m-p49qwP_R1bvoWBxw}
+30/09/20 14:23:18 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 404 
+30/09/20 14:23:18 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.Projects), not marked as ignorable (one known property: "content"])
+ at [Source: (String)"{"timestamp":"2020-09-30T17:23:17.442+0000","status":404,"error":"Not Found","message":"No message available","path":"/rest/project/q"}"; line: 1, column: 15] (through reference chain: api.model.Projects["timestamp"])
+30/09/20 14:23:18 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 14:36:57 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 14:36:57 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 14:36:59 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@4999bb81,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 17:36:58 GMT]}>
+30/09/20 14:36:59 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 14:36:59 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 14:36:59 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/project/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg3NDE4LCJleHAiOjE2MDE1NzM4MTh9.leSbOZEKS8SBHT9znyenGfQ41JEP5sHWzKzZ-OPr-4sZGJ_aRP8BOuJA22vCBRyRTDXrSCP_2a4ThM5VsYXM2Q}
+30/09/20 14:36:59 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 404 
+30/09/20 14:36:59 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.Projects), not marked as ignorable (one known property: "content"])
+ at [Source: (String)"{"timestamp":"2020-09-30T17:36:58.856+0000","status":404,"error":"Not Found","message":"No message available","path":"/rest/project/q"}"; line: 1, column: 15] (through reference chain: api.model.Projects["timestamp"])
+30/09/20 14:36:59 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 14:38:36 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 14:38:36 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 14:38:38 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@4999bb81,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 17:38:37 GMT]}>
+30/09/20 14:38:38 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 14:38:38 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 14:38:38 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/project/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg3NTE3LCJleHAiOjE2MDE1NzM5MTd9.7MISlmge9iU_xTmqv5AMzB9jp74Nh4QdWtS6SnijrbNlCAoStaULFKLj1RG24TcMVGQkaoXXpCPKFh3mLZvNIQ}
+30/09/20 14:38:38 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 404 
+30/09/20 14:38:38 ERROR JsonUtils:37 - Unrecognized field "timestamp" (class api.model.Projects), not marked as ignorable (one known property: "content"])
+ at [Source: (String)"{"timestamp":"2020-09-30T17:38:38.102+0000","status":404,"error":"Not Found","message":"No message available","path":"/rest/project/q"}"; line: 1, column: 15] (through reference chain: api.model.Projects["timestamp"])
+30/09/20 14:38:38 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 14:41:12 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 14:41:12 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 14:41:14 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@3bc83de9,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 17:41:13 GMT]}>
+30/09/20 14:41:14 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 14:41:14 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 14:41:14 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/projects/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg3NjczLCJleHAiOjE2MDE1NzQwNzN9.sk6KFrPHovMnIpAPPCH-ax0nk4UbKBDCGCZpvAT4m74E21XhS_EoX65ZWvNLuAJhO0nGPBovZXXVLEmA_5X9FQ}
+30/09/20 14:41:14 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Projects@21a4a857,{Set-Cookie=[JSESSIONID=B2761E73E43F3094A254E0B282EA2D02; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 17:41:13 GMT]}>
+30/09/20 14:41:14 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:03:24 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 15:03:25 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 15:03:26 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5bfaad11,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 18:03:25 GMT]}>
+30/09/20 15:03:26 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 15:03:26 INFO  BasicHook:20 - ------ Starting -----Obtener lista de Projects-----
+30/09/20 15:03:26 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/projects/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg5MDA1LCJleHAiOjE2MDE1NzU0MDV9.l2UGGPTrONvPoyyh1Nl0vNQGquDoumJDiP86jHLAqdT2PJxwLPVQb6etrns12Mg0uagzBKs7WyAjmrRb7WUW_Q}
+30/09/20 15:03:26 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Projects@3f96cef8,{Set-Cookie=[JSESSIONID=5D5992030A51C0EDBE008484BE082E98; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 18:03:25 GMT]}>
+30/09/20 15:03:26 INFO  BasicHook:35 - ------ Ending -----Obtener lista de Projects-----
+30/09/20 15:03:26 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:03:26 ERROR MethodsService:99 - D:\Acer\Documentos\Crowdar\academy-api-exercise\src\test\resources\jsons\request\searchProject.json (El sistema no puede encontrar el archivo especificado)
+30/09/20 15:03:26 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:03:26 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:03:26 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids={{ids}}}, {Content-Type=application/json, Authorization=asd123}
+30/09/20 15:03:27 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 15:03:27 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:05:15 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 15:05:16 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 15:05:17 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5bfaad11,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 18:05:16 GMT]}>
+30/09/20 15:05:17 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 15:05:17 INFO  BasicHook:20 - ------ Starting -----Obtener lista de Projects-----
+30/09/20 15:05:17 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/projects/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg5MTE2LCJleHAiOjE2MDE1NzU1MTZ9.Qa2OfqB9gs297adXa9FjTgrp1iXLcBcnf_Le2N6MPzGtJ4yNVciTa9fxwVigjNENogwhtcRzd8OvYejuI3lRiQ}
+30/09/20 15:05:17 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Projects@3f96cef8,{Set-Cookie=[JSESSIONID=23E00C4E1B9BBE4C489149829882A64B; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 18:05:16 GMT]}>
+30/09/20 15:05:17 INFO  BasicHook:35 - ------ Ending -----Obtener lista de Projects-----
+30/09/20 15:05:17 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:05:17 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids=5f36b3b76eae8d6a27b76c3d}, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg5MTE2LCJleHAiOjE2MDE1NzU1MTZ9.Qa2OfqB9gs297adXa9FjTgrp1iXLcBcnf_Le2N6MPzGtJ4yNVciTa9fxwVigjNENogwhtcRzd8OvYejuI3lRiQ}
+30/09/20 15:05:18 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:05:18 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:05:18 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids={{ids}}}, {Content-Type=application/json, Authorization=asd123}
+30/09/20 15:05:18 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 15:05:18 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:06:45 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 15:06:45 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 15:06:46 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@1c2646fc,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 18:06:46 GMT]}>
+30/09/20 15:06:46 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 15:06:46 INFO  BasicHook:20 - ------ Starting -----Obtener lista de Projects-----
+30/09/20 15:06:46 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/projects/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg5MjA2LCJleHAiOjE2MDE1NzU2MDZ9.Lt1NQwRU5tGsv9_6LVgRwR_Gu1fvyYJk1qUOXEfkFhhKNhzsYOtsF1QL1BFecSCeyh_dme_BumH4Z-fhbMo0bQ}
+30/09/20 15:06:47 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Projects@4d5b86f6,{Set-Cookie=[JSESSIONID=D5F4E30231AFBBD87285F9EF44921A1A; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 18:06:46 GMT]}>
+30/09/20 15:06:47 INFO  BasicHook:35 - ------ Ending -----Obtener lista de Projects-----
+30/09/20 15:06:47 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:06:47 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids=5f3e5c744fc90552c4e13a9d}, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg5MjA2LCJleHAiOjE2MDE1NzU2MDZ9.Lt1NQwRU5tGsv9_6LVgRwR_Gu1fvyYJk1qUOXEfkFhhKNhzsYOtsF1QL1BFecSCeyh_dme_BumH4Z-fhbMo0bQ}
+30/09/20 15:06:47 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:06:47 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:06:47 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids={{ids}}}, {Content-Type=application/json, Authorization=asd123}
+30/09/20 15:06:47 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 15:06:47 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:07:41 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 15:07:42 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 15:07:43 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@48f0f38d,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 18:07:42 GMT]}>
+30/09/20 15:07:43 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 15:07:43 INFO  BasicHook:20 - ------ Starting -----Obtener lista de Projects-----
+30/09/20 15:07:43 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/projects/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg5MjYyLCJleHAiOjE2MDE1NzU2NjJ9.CJNjblawaaK2bZ9ksVgxvJBDfpmhG1aRkxiVaywCIRGrKwWOY2DrNUN5Qd9lMiDT3il2XcnVNg7q0cCUGjSKhg}
+30/09/20 15:07:43 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Projects@451edde9,{Set-Cookie=[JSESSIONID=6BFFCF70A03E1D3C84F8B688EEF46DE2; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 18:07:42 GMT]}>
+30/09/20 15:07:43 INFO  BasicHook:35 - ------ Ending -----Obtener lista de Projects-----
+30/09/20 15:07:43 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:07:43 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids=5f3e5c744fc90552c4e13a9d}, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg5MjYyLCJleHAiOjE2MDE1NzU2NjJ9.CJNjblawaaK2bZ9ksVgxvJBDfpmhG1aRkxiVaywCIRGrKwWOY2DrNUN5Qd9lMiDT3il2XcnVNg7q0cCUGjSKhg}
+30/09/20 15:07:44 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:07:44 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:07:44 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids={{ids}}}, {Content-Type=application/json, Authorization=asd123}
+30/09/20 15:07:44 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 15:07:44 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:10:35 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 15:10:35 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 15:10:37 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@5bfaad11,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 18:10:36 GMT]}>
+30/09/20 15:10:37 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 15:10:37 INFO  BasicHook:20 - ------ Starting -----Obtener lista de Projects-----
+30/09/20 15:10:37 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/projects/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg5NDM2LCJleHAiOjE2MDE1NzU4MzZ9.b0XjWI9P6H7Kk-lp9KBKwXFAszzp1IJIHvUMYimGk_4RiBLbHBzgqhgA5lNBj5Ty8XLVSaJTaz9-2haaMrrmWw}
+30/09/20 15:10:37 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Projects@3f96cef8,{Set-Cookie=[JSESSIONID=AC29E4CEDE12772EE39252C8E10E23E4; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 18:10:36 GMT]}>
+30/09/20 15:10:37 INFO  BasicHook:35 - ------ Ending -----Obtener lista de Projects-----
+30/09/20 15:10:37 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:10:37 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids=5f36b3b76eae8d6a27b76c3d}, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg5NDM2LCJleHAiOjE2MDE1NzU4MzZ9.b0XjWI9P6H7Kk-lp9KBKwXFAszzp1IJIHvUMYimGk_4RiBLbHBzgqhgA5lNBj5Ty8XLVSaJTaz9-2haaMrrmWw}
+30/09/20 15:10:37 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:10:37 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:10:37 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids={{ids}}}, {Content-Type=application/json, Authorization=asd123}
+30/09/20 15:10:38 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 15:10:38 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:14:07 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 15:14:08 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 15:14:10 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@1ec7d8b3,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 18:14:09 GMT]}>
+30/09/20 15:14:10 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 15:14:10 INFO  BasicHook:20 - ------ Starting -----Obtener lista de Projects-----
+30/09/20 15:14:10 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/projects/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg5NjQ5LCJleHAiOjE2MDE1NzYwNDl9.A7xcmEYcCSiDY-t-e3lyFMlQNW0dNYOnBMGJrZt7QiDNHXwbYAlhOErmUIs3KtAFmxeAwkyX-LbsbMzTX4fCoA}
+30/09/20 15:14:11 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Projects@720653c2,{Set-Cookie=[JSESSIONID=F6AC6A78161D594CBB64E9245F44AE0F; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 18:14:09 GMT]}>
+30/09/20 15:18:12 INFO  BasicHook:35 - ------ Ending -----Obtener lista de Projects-----
+30/09/20 15:18:12 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:18:12 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids=5f36b3b76eae8d6a27b76c3d}, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg5NjQ5LCJleHAiOjE2MDE1NzYwNDl9.A7xcmEYcCSiDY-t-e3lyFMlQNW0dNYOnBMGJrZt7QiDNHXwbYAlhOErmUIs3KtAFmxeAwkyX-LbsbMzTX4fCoA}
+30/09/20 15:18:13 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:18:13 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:18:13 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids={{ids}}}, {Content-Type=application/json, Authorization=asd123}
+30/09/20 15:18:13 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 15:18:13 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:18:21 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 15:18:21 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 15:18:23 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@7ceb3185,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 18:18:23 GMT]}>
+30/09/20 15:18:23 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 15:18:23 INFO  BasicHook:20 - ------ Starting -----Obtener lista de Projects-----
+30/09/20 15:18:23 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/projects/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg5OTAzLCJleHAiOjE2MDE1NzYzMDN9.uQZwtud42c61Q1gwEnnjmtxH_B6RPt1UQ5CukjZQgoCbOlKUhWsZUt8vVj89W8qiqoQqyfupdm8WI4rWXThx6g}
+30/09/20 15:18:24 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Projects@2d778add,{Set-Cookie=[JSESSIONID=27746A00FDECCDC3C2D32EE3E5D410BC; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 18:18:23 GMT]}>
+30/09/20 15:18:24 INFO  BasicHook:35 - ------ Ending -----Obtener lista de Projects-----
+30/09/20 15:18:24 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:18:24 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids=5f36b3b76eae8d6a27b76c3d}, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg5OTAzLCJleHAiOjE2MDE1NzYzMDN9.uQZwtud42c61Q1gwEnnjmtxH_B6RPt1UQ5CukjZQgoCbOlKUhWsZUt8vVj89W8qiqoQqyfupdm8WI4rWXThx6g}
+30/09/20 15:18:24 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:18:24 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:18:24 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids={{ids}}}, {Content-Type=application/json, Authorization=asd123}
+30/09/20 15:18:24 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 15:18:24 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:18:48 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 15:18:49 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 15:18:50 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@6b625c83,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 18:18:49 GMT]}>
+30/09/20 15:18:50 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 15:18:50 INFO  BasicHook:20 - ------ Starting -----Obtener lista de Projects-----
+30/09/20 15:18:50 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/projects/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg5OTI5LCJleHAiOjE2MDE1NzYzMjl9.T2T76n3jWM1Ok7R52Cf5Qw3mZi842Z9PeNo3_nRI493VsVBou4Ng8R7pNs0Wu2UPs7E7961AGfhx-gwJJGlRgg}
+30/09/20 15:18:50 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Projects@3ba38980,{Set-Cookie=[JSESSIONID=7E4B4248D5745ABCFB26553002ACED58; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 18:18:49 GMT]}>
+30/09/20 15:18:50 INFO  BasicHook:35 - ------ Ending -----Obtener lista de Projects-----
+30/09/20 15:18:50 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:18:50 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids=5f36b3b76eae8d6a27b76c3d}, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDg5OTI5LCJleHAiOjE2MDE1NzYzMjl9.T2T76n3jWM1Ok7R52Cf5Qw3mZi842Z9PeNo3_nRI493VsVBou4Ng8R7pNs0Wu2UPs7E7961AGfhx-gwJJGlRgg}
+30/09/20 15:18:51 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:18:51 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:18:51 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids={{ids}}}, {Content-Type=application/json, Authorization=asd123}
+30/09/20 15:18:51 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 15:18:51 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:22:41 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 15:22:42 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 15:22:44 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@3b0ca5e1,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 18:22:43 GMT]}>
+30/09/20 15:22:45 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 15:22:45 INFO  BasicHook:20 - ------ Starting -----Obtener lista de Projects-----
+30/09/20 15:22:45 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/projects/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDkwMTYzLCJleHAiOjE2MDE1NzY1NjN9.c-a1uYPIBDOMFo2Ho02al8IsxeFOBjBhGxGj-W26r7XI0GY4v_-BJ4XzERyQkG4SJaDHLBNKnAhkuHVZFtjm8w}
+30/09/20 15:22:45 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Projects@45f24169,{Set-Cookie=[JSESSIONID=98CC8E755F3ADA70A85E1894575ADABA; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 18:22:43 GMT]}>
+30/09/20 15:23:48 INFO  BasicHook:35 - ------ Ending -----Obtener lista de Projects-----
+30/09/20 15:23:48 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:23:48 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids=5f36b3b76eae8d6a27b76c3d}, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDkwMTYzLCJleHAiOjE2MDE1NzY1NjN9.c-a1uYPIBDOMFo2Ho02al8IsxeFOBjBhGxGj-W26r7XI0GY4v_-BJ4XzERyQkG4SJaDHLBNKnAhkuHVZFtjm8w}
+30/09/20 15:24:02 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 15:24:03 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 15:24:04 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@6b625c83,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 18:24:03 GMT]}>
+30/09/20 15:24:04 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 15:24:04 INFO  BasicHook:20 - ------ Starting -----Obtener lista de Projects-----
+30/09/20 15:24:04 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/projects/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDkwMjQzLCJleHAiOjE2MDE1NzY2NDN9.2QN6GT6ddXniWJekQSd1fDPuqiCKbxPgXlaTF9G8i8LnaikO0ZEkNYUK6kBUsfH5iJNqMnWPpiwzYu6GEMd4-A}
+30/09/20 15:24:04 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Projects@3ba38980,{Set-Cookie=[JSESSIONID=97050AB3BAC29BE9BCB6E0EB41A99901; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 18:24:03 GMT]}>
+30/09/20 15:24:04 INFO  BasicHook:35 - ------ Ending -----Obtener lista de Projects-----
+30/09/20 15:24:04 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:24:04 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids=5f36b3b76eae8d6a27b76c3d}, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDkwMjQzLCJleHAiOjE2MDE1NzY2NDN9.2QN6GT6ddXniWJekQSd1fDPuqiCKbxPgXlaTF9G8i8LnaikO0ZEkNYUK6kBUsfH5iJNqMnWPpiwzYu6GEMd4-A}
+30/09/20 15:24:05 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:24:05 INFO  BasicHook:20 - ------ Starting -----Buscar Project-----
+30/09/20 15:24:05 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083//rest/projects/search/findAllByIdIn, {ids={{ids}}}, {Content-Type=application/json, Authorization=asd123}
+30/09/20 15:24:05 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 15:24:05 INFO  BasicHook:35 - ------ Ending -----Buscar Project-----
+30/09/20 15:28:45 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 15:28:45 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 15:28:47 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@6b625c83,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 18:28:46 GMT]}>
+30/09/20 15:28:47 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 15:28:47 INFO  BasicHook:20 - ------ Starting -----Obtener lista de Projects-----
+30/09/20 15:28:47 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/projects/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDkwNTI2LCJleHAiOjE2MDE1NzY5MjZ9.GmB6KjzWl9-eiybP-7FSHsCsMtPEatMr1ObSf853cd4N9SmIox5bRbYsgC1iDImu3hGm4NL7NgfvVB2p3sg01A}
+30/09/20 15:28:47 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Projects@3ba38980,{Set-Cookie=[JSESSIONID=844B22CCA5B6B000C1A6EE1B92ABA1E1; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 18:28:46 GMT]}>
+30/09/20 15:28:47 INFO  BasicHook:35 - ------ Ending -----Obtener lista de Projects-----
+30/09/20 15:28:47 INFO  BasicHook:20 - ------ Starting -----Obtener lista de Projects-----
+30/09/20 15:28:47 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/projects/q, {Content-Type=application/json, Authorization=123asd}
+30/09/20 15:28:47 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 15:28:47 INFO  BasicHook:35 - ------ Ending -----Obtener lista de Projects-----
+30/09/20 15:29:25 INFO  BasicHook:20 - ------ Starting -----Crear Token-----
+30/09/20 15:29:26 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}, {Content-Type=application/json}
+30/09/20 15:29:27 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserToken@4e3ee20,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Wed, 30 Sep 2020 18:29:27 GMT]}>
+30/09/20 15:29:27 INFO  BasicHook:35 - ------ Ending -----Crear Token-----
+30/09/20 15:29:27 INFO  BasicHook:20 - ------ Starting -----Obtener lista de Projects-----
+30/09/20 15:29:27 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/projects/q, {Content-Type=application/json, Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxNDkwNTY3LCJleHAiOjE2MDE1NzY5Njd9.n9KLL9EU4PqRYnz-nc-7PaccrljcfoPF7vWhHDlwZ4AJoCb8mOQy-6OO-ILCctM1BOyihd3DJti_inxOhyDyQg}
+30/09/20 15:29:28 INFO  RestClient:90 - >>>Response: <200 OK,api.model.Projects@5c90390,{Set-Cookie=[JSESSIONID=C9C034BF7F1E9A904C000EC648D0E701; Path=/; HttpOnly], X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Wed, 30 Sep 2020 18:29:27 GMT]}>
+30/09/20 15:29:28 INFO  BasicHook:35 - ------ Ending -----Obtener lista de Projects-----
+30/09/20 15:29:28 INFO  BasicHook:20 - ------ Starting -----Obtener lista de Projects-----
+30/09/20 15:29:28 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/projects/q, {Content-Type=application/json, Authorization=123asd}
+30/09/20 15:29:28 INFO  RestClient:93 - >>>Error Response: org.springframework.web.client.HttpClientErrorException: 403 
+30/09/20 15:29:28 INFO  BasicHook:35 - ------ Ending -----Obtener lista de Projects-----

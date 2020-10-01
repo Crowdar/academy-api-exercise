@@ -1,0 +1,13 @@
+api\config\EntityConfiguration$3.class
+api\model\ErrorToken.class
+api\model\UserToken.class
+api\config\EntityConfiguration$4.class
+api\model\Projects.class
+services\ErrorTokenService.class
+services\TokenService.class
+services\ProjectsService.class
+api\config\EntityConfiguration$1.class
+api\config\EntityConfiguration$2.class
+api\model\Project.class
+api\config\EntityConfiguration.class
+services\ProjectService.class
