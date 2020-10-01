@@ -1,21 +1,21 @@
 package api.config;
 
-import services.ResponseHeadersService;
-import services.UserService;
+
+import services.LoginService;
+import services.UserExamenService;
 
 public enum EntityConfiguration {
 
-    USER {
+    LOGIN {
         @Override
         public Class<?> getEntityService() {
-            return UserService.class;
+            return LoginService.class;
         }
-
     },
-    RESPONSE_HEADERS {
+    USEREXAMEN {
         @Override
         public Class<?> getEntityService() {
-            return ResponseHeadersService.class;
+            return UserExamenService.class;
         }
     };
 

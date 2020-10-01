@@ -1,0 +1,6 @@
+{
+  "endpoint": "/rest/user/me",
+  "headers": {
+    "Authorization": "Bearer {{Token}}"
+  }
+}

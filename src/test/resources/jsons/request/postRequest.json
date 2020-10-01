@@ -1,0 +1,7 @@
+{
+  "endpoint": "/user/authenticate",
+  "urlParameters": {
+    "username": "admin",
+    "password": "password"
+  }
+}
