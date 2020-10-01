@@ -61,7 +61,7 @@ public class UserSteps extends PageSteps {
 			User response = (User) APIManager.getLastResponse().getResponse();
 			Assert.assertEquals(String.valueOf(response.getUsername()), value,
 					"La " + property + " no está en el response");
-			if (response.getJwt() != null && response.getJwt() != "") {
+			if (response.getJwt() != null && response.getJwt().equals("")) {
 				UserService.TOKEN.set(response.getJwt());
 			}
 

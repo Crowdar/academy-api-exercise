@@ -34,7 +34,7 @@ Feature: Api de Crowdar
     Examples:
       | jsonName    																		| statusCode | operation | params								  	| entity  			|
       | request/enviromentSearchBuild										| 200        | GET       | name:admin,value:123 		| ENVIRONMENT   |
-      | request/enviromentSearchBuildFail								| 403        | GET       | name:unknown,value:123		| ENVIRONMENT	  |
+      | request/enviromentSearchBuild										| 403        | GET       | name:unknown,value:123		| ENVIRONMENT	  |
       	
 
       
