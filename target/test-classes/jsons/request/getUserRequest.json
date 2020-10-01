@@ -1,6 +1,6 @@
 {
   "endpoint": "/rest/user/me",
   "headers": {
-    "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxMjM0NjQzLCJleHAiOjE2MDEzMjEwNDN9.dQQf0LaNTmlMOJEVzzoymd5hbf7lC3vOgbmbOA87uaPQjpvOlRdYwa-2XF47uE3ZrVu9LGs0L1M1vWXI6XBVww"
+    "Authorization": "Bearer {{Token}}"
   }
 }

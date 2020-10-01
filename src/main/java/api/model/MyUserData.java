@@ -2,7 +2,7 @@ package api.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class UserExamen {
+public class MyUserData {
     @JsonProperty("id")
     private String id;
     @JsonProperty("name")

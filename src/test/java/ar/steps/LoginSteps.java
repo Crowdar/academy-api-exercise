@@ -2,12 +2,14 @@ package ar.steps;
 
 import api.config.EntityConfiguration;
 import api.model.Login;
+import api.model.UserExamen;
 import com.crowdar.api.rest.APIManager;
 import com.crowdar.core.PageSteps;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
+import services.UserExamenService;
 
 import java.lang.reflect.InvocationTargetException;
 
@@ -31,6 +33,6 @@ public class LoginSteps extends PageSteps {
     public void obtengoElToken() {
         Login respuesta = (Login) APIManager.getLastResponse().getResponse();
 
-        System.out.println("TOKEN: "+respuesta.getToken());
+        UserExamenService.TOKEN.set(respuesta.getToken());
     }
 }

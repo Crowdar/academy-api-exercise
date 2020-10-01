@@ -8,6 +8,5 @@ public class LoginService extends MethodsService {
 
     public static Response post(String jsonName) {
         return post(jsonName, Login.class);
-
     }
 }
