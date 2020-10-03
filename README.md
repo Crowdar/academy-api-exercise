@@ -2,6 +2,9 @@
 
 ## System Requirements : 
 + git client: https://www.atlassian.com/git/tutorials/install-git 
++ JDK 8: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html 
+		https://openjdk.java.net/install/ 
++ maven 3.X: https://maven.apache.org/download.cgi 
 + docker 18.09: https://docs.docker.com/install/linux/docker-ce/ubuntu/ 
 + docker compose 1.24: https://docs.docker.com/compose/install/
 
@@ -21,7 +24,7 @@ This sample project includes the required components as binaries, docker contain
 - go to root project folder and you will find a pom.xml file
 - run the following command : 
 ```
-sudo docker-compose -f docker-compose.yml up --abort-on-container-exit --exit-code-from lippia
+mvn clean test
 ```
 	
 ## Project structure
@@ -98,7 +101,6 @@ In this example, *ApiExample* is the first endpoint the framework will interact 
 ### Model Object Example
 
 In the model examples you can mapped the expected objects from different api responses. We can show you a little example:
-
 ```
 {
     "data": {
@@ -109,7 +111,6 @@ In the model examples you can mapped the expected objects from different api res
         "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
     }
 }
-
 ```
 So the model class will be something like this: 
 ```
@@ -157,17 +158,17 @@ So the model class will be something like this:
         this.avatar = avatar;
     }
 	}
-
+```
 The idea is have one attribute per field to map on the response
 
 
 # Lippia Architecture	
 
-![Lippia Architecture API](docs/images/architectureApi.png)
+![Lippia Architecture API](https://bitbucket.org/crowdarautomation/lippia-api-example-project/raw/a4fc4af87f4a788ec80296d73048d9b842314864/architectureApi.png)
 
 # Scenario Example
 
-![Lippia Scenarios Example API](docs/images/steps_example.png)
+![Lippia Scenarios Example API](https://bitbucket.org/crowdarautomation/lippia-api-example-project/raw/5f432ebe2b056991993ade77cc5898ab541b7a5e/steps_example.png)
 
 
 The scenarios can be written using BDD methodology. 
@@ -186,14 +187,61 @@ On each declared step you can insert the calls defined from service classes
 This project use json to manage request data like url parameters, body data, headers and url endpoints. The following picture shows the structure of the json
 
 
-![Lippia Scenarios Example API](docs/images/jsonStructure.png)
+![Lippia Scenarios Example API](https://bitbucket.org/crowdarautomation/lippia-api-example-project/raw/47a9fd7f14d3eff7472974e1f34356f8556498aa/images/jsonStructure.png)
+
+# Extent Report
+
+This project like all lippia products uses Extent reports that shows the status of each test run. This report also describe stadistic data for the total number of tests and the status of those
+
+
+![Lippia Scenarios Example API](https://bitbucket.org/crowdarautomation/lippia-api-example-project/raw/47a9fd7f14d3eff7472974e1f34356f8556498aa/images/reporteExtent.png)
+
+
+# Requirements :
+- git client 
+	https://www.atlassian.com/git/tutorials/install-git
+
+- JDK 8 
+	https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html 
+	https://openjdk.java.net/install/
+
++ maven 3 
+	https://maven.apache.org/download.cgi
 
 # Getting started
     
 - If you are Linux user 
-    [`Getting started - Linux User`](docs/README_Linux.md)
+    [`Getting started - Linux User`](https://bitbucket.org/crowdarautomation/lippia-api-example-project/src/master/docs/README_Linux.md)
 - If you are Windws user
-    [`Getting started - Windows User`](docs/README_Windows.md)
+    [`Getting started - Windows User`](https://bitbucket.org/crowdarautomation/lippia-api-example-project/src/master/docs/README_Windows.md)
+<<<<<<< HEAD
+    
+# Update Version Lippia 3
+
+## Main Features: 
+- Added multiple reports of extent reports
+- Added the feature to handle the chrome options by a json file
+- Include project type properties that allows to decide wich library would need for the project
+- Added the dependency for lippia report server 
+- Cucumber version updated
+
+
+## Multiple reports templates:
+ - With this version of Lippia the user have the possibility to choose which kind of template for html reports is the best for the project requirements.
+   The user only need to turn on the flag in the extent.properties file located in src/test/resources.
+   
+   
+### Some examples of this are
+   
+#### Avenstack template:
+   ![aventstack_report] (https://bitbucket.org/crowdarautomation/lippia-web-sample-project/raw/91f94d530c4b87c88731a59e6285843926543b58/docs/img/aventstack_report.png)
+   
+#### BDD template:
+   ![bbd_report] (https://bitbucket.org/crowdarautomation/lippia-web-sample-project/raw/91f94d530c4b87c88731a59e6285843926543b58/docs/img/bbd_report.png)
+   
+#### Cards template:
+   ![cards_report] (https://bitbucket.org/crowdarautomation/lippia-web-sample-project/raw/91f94d530c4b87c88731a59e6285843926543b58/docs/img/cards_report.png)
+   
 
 ## Project type options:
 - The project type option allows the user to say Lippia which library would need to download. For this project is setted the API one that only have all library needed for this kind of project.
@@ -202,3 +250,14 @@ This project use json to manage request data like url parameters, body data, hea
   
   API
         crowdar.projectType=API
+
+ 
+ 
+
+   
+   
+ 
+
+    
+=======
+>>>>>>> 4ed41e3af605076073e8d76202f9f40ebfb16eb6
