@@ -1,0 +1,12 @@
+{
+	"url": "",
+	"headers": {
+		"Content-Type": "application/json",
+		"Authorization": "{{token}}"
+	},
+	"urlParameters": {
+		 "name": "{{name}}",
+    	"value": "{{value}}"
+	},
+	"endpoint": "/rest/environment/search/findBuilds"
+}

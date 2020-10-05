@@ -1,0 +1,11 @@
+{
+	"url": "",
+	"headers": {
+		"Content-Type": "application/json",
+		"Authorization": "{{token}}"
+	},
+	"urlParameters": {
+		
+	},
+	"endpoint": "/rest/authors/distinct"
+}

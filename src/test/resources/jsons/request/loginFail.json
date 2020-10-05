@@ -1,0 +1,11 @@
+{
+	"url": "",
+	"headers": {
+		
+	},
+	"urlParameters": {
+		"username": "unknown",
+		"password": "random"
+	},
+	"endpoint": "/user/authenticate"
+}
