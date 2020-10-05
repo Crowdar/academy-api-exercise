@@ -1,0 +1,10 @@
+{
+  "headers": {
+    "Authorization": "Bearer {{token}}",
+    "Content-Type": "application/json"
+  },
+  "urlParameters": {
+    "errorState": "CLOSE_CONNECTION_NOW"
+  },
+  "endpoint":"rest/projects/project/errorstates"
+}

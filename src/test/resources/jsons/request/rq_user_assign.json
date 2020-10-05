@@ -1,0 +1,11 @@
+{
+  "headers": {
+    "Authorization": "Bearer {{token}}",
+    "Content-Type": "application/json"
+  },
+  "urlParameters": {
+    "projectId": "01",
+    "userId": "5efe2a630d248f00012fa872"
+  },
+  "endpoint":"rest/projects/user/assign"
+}

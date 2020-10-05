@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "Authorization": "Bearer {{token}}",
+    "Content-Type": "application/json"
+  },
+  "urlParameters": {
+    "projectId": "01",
+    "userId": "5efe2a630d248f00012fa872",
+    "role": "ROLE_ROOT"
+  },
+  "endpoint":"rest/projects/user/role"
+}

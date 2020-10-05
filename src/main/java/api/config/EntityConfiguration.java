@@ -1,7 +1,6 @@
 package api.config;
 
-import services.ResponseHeadersService;
-import services.UserService;
+import services.*;
 
 public enum EntityConfiguration {
 
@@ -12,12 +11,71 @@ public enum EntityConfiguration {
         }
 
     },
-    RESPONSE_HEADERS {
+    ROLE {
         @Override
         public Class<?> getEntityService() {
-            return ResponseHeadersService.class;
+            return RoleService.class;
         }
+
+    },
+    ASSIGN {
+        @Override
+        public Class<?> getEntityService() {
+            return AssignService.class;
+        }
+
+    },
+    TESTING {
+        @Override
+        public Class<?> getEntityService() {
+            return TestService.class;
+        }
+
+    },
+    TIME {
+        @Override
+        public Class<?> getEntityService() {
+            return TimesService.class;
+        }
+
+    },
+    REPORTS {
+        @Override
+        public Class<?> getEntityService() {
+            return ReportsService.class;
+        }
+
+    },
+    ERROR {
+        @Override
+        public Class<?> getEntityService() {
+            return ErrorsService.class;
+        }
+
+    },
+    UPDATE {
+        @Override
+        public Class<?> getEntityService() {
+            return UpdateService.class;
+        }
+
+    },
+    REPORTSQ {
+        @Override
+        public Class<?> getEntityService() { return FindReportsService.class; }
+
+    },
+    COUNT {
+        @Override
+        public Class<?> getEntityService() { return quantityTestService.class; }
+
+    },
+    USER_A {
+        @Override
+        public Class<?> getEntityService() { return AuthenticateService.class; }
+
     };
+
 
     public abstract Class<?> getEntityService();
 }
