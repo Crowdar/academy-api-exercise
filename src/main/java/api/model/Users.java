@@ -2,41 +2,55 @@ package api.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.util.List;
-
 public class Users {
+    @JsonProperty("id")
+    private String id;
+    @JsonProperty("name")
+    private String name;
+    @JsonProperty("password")
+    private String password;
+    @JsonProperty("role")
+    private String role;
+    @JsonProperty("admin")
+    private String admin;
 
-    @JsonProperty("data")
-    List<User> data;
-
-    @JsonProperty("page")
-    private int page;
-
-    @JsonProperty("total")
-    private int total;
-
-    public List<User> getData() {
-        return data;
+    public String getId() {
+        return id;
     }
 
-    public void setData(List<User> data) {
-        this.data = data;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public int getPage() {
-        return page;
+    public String getName() {
+        return name;
     }
 
-    public void setPage(int page) {
-        this.page = page;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public int getTotal() {
-        return total;
+    public String getPassword() {
+        return password;
     }
 
-    public void setTotal(int total) {
-        this.total = total;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    public String getAdmin() {
+        return admin;
+    }
+
+    public void setAdmin(String admin) {
+        this.admin = admin;
+    }
 }
