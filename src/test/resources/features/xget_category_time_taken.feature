@@ -8,10 +8,10 @@ Feature: Swagger_UI API
     #Given el token es creado
     When realizo una peticion '<operation>' a '<entity>' al endpoint - '<request>'
     Then obtengo el codigo de status '<statusCode>'
-    And los datos son correctos
+    And los datos son correctos '<jsonresponse>'
     Examples:
-      | request                  | statusCode | operation | entity            |
-      | request/rq_cgry_tme_tken | 200        | GET       | CATEGORYTIMETAKEN |
+      | request                  | statusCode | operation | entity            | jsonresponse           |
+      | request/rq_cgry_tme_tken | 200        | GET       | CATEGORYTIMETAKEN | rp_category_time_taken |
 
 
 

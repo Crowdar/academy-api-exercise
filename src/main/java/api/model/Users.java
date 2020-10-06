@@ -14,7 +14,6 @@ public class Users {
     @JsonProperty("admin")
     private String admin;
 
-
     public String getId() {
         return id;
     }

@@ -11,6 +11,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
 
+import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 
 
@@ -27,6 +28,7 @@ public class obtenerUsuariosSteps extends PageSteps {
         Assert.assertEquals(statusCode, expC);
     }
 
+    /*
     @And("la informacion es correcta")
     public void laInformacionEsCorrecta() {
         Users users = (Users) APIManager.getLastResponse().getResponse();
@@ -37,13 +39,19 @@ public class obtenerUsuariosSteps extends PageSteps {
         Assert.assertEquals(users.getRole(), "ROLE_ROOT");
         Assert.assertEquals(users.getAdmin(), "false");
 
-    }
+    }*/
+    //Se crea este step para poder validar la información a través de un archivo response
+    @And("la informacion es correcta '(.*)'")
+    public void laInformacionEsCorrectaJsonName(String jsonResponse) throws IOException {
 
-    @And("la informacion es correcta1")
-    public void laInformacionEsCorrecta1() {
-        CategoryTimeTaken categoryTimeTaken = (CategoryTimeTaken) APIManager.getLastResponse().getResponse();
+        Users userMeResponse = (Users) APIManager.getLastResponse().getResponse();
+        //Para obtener el response de un jsonFile necesito el archivo.json y la clase que se va a parametrizar
+        Users userMeResponseFromJson = APIManager.getResponseFromJsonFile(jsonResponse, Users.class);
 
-        Assert.assertEquals(categoryTimeTaken.getName(),"@Smoke");
-        Assert.assertEquals(categoryTimeTaken.getTotal(),"0");
+        Assert.assertEquals(userMeResponse.getId(),userMeResponseFromJson.getId());
+        Assert.assertEquals(userMeResponse.getName(),userMeResponseFromJson.getName());
+        Assert.assertEquals(userMeResponse.getPassword(),userMeResponseFromJson.getPassword());
+        Assert.assertEquals(userMeResponse.getRole(),userMeResponseFromJson.getRole());
+        Assert.assertEquals(userMeResponse.getAdmin(),userMeResponseFromJson.getAdmin());
     }
 }

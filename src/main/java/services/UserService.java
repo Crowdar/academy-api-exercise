@@ -17,5 +17,4 @@ public class UserService extends MethodsService {
         hmap.put("token", "Bearer ".concat(TOKEN.get()));
         return get(jsonName, Users.class,hmap);
     }
-
 }
