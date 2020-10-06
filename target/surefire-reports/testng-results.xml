@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="3598" started-at="2020-10-01T04:50:33Z" finished-at="2020-10-01T04:50:36Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ApiExampleProjectTestRunner@1e127982]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Login and Update Profile Test" duration-ms="3598" started-at="2020-10-01T04:50:33Z" finished-at="2020-10-01T04:50:36Z">
+      <class name="ApiExampleProjectTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:ApiExampleProjectTestRunner@1e127982]" name="setUpClass" is-config="true" duration-ms="173" started-at="2020-10-01T04:50:33Z" finished-at="2020-10-01T04:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ApiExampleProjectTestRunner@1e127982]" name="runScenario" duration-ms="2110" started-at="2020-10-01T04:50:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-01T04:50:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Crear Token"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CrowdarApi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ApiExampleProjectTestRunner@1e127982]" name="runScenario" duration-ms="246" started-at="2020-10-01T04:50:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-01T04:50:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Busco datos de las categorias"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Crowdar API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ApiExampleProjectTestRunner@1e127982]" name="runScenario" duration-ms="238" started-at="2020-10-01T04:50:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-01T04:50:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Busco datos de las categorias"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Crowdar API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ApiExampleProjectTestRunner@1e127982]" name="runScenario" duration-ms="277" started-at="2020-10-01T04:50:36Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-01T04:50:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["A scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Crowdar API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ApiExampleProjectTestRunner@1e127982]" name="runScenario" duration-ms="226" started-at="2020-10-01T04:50:36Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-01T04:50:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Solicito mi usuario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Crowdar API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ApiExampleProjectTestRunner@1e127982]" name="runScenario" duration-ms="235" started-at="2020-10-01T04:50:36Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-01T04:50:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Solicito mi usuario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Crowdar API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ApiExampleProjectTestRunner@1e127982]" name="tearDownClass" is-config="true" duration-ms="24" started-at="2020-10-01T04:50:36Z" finished-at="2020-10-01T04:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ApiExampleProjectTestRunner -->
+    </test> <!-- Login and Update Profile Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

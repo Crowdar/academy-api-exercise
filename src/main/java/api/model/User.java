@@ -1,26 +1,116 @@
 package api.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+
+import java.util.Map;
 
 public class User {
 
-    @JsonProperty("id")
-    private int id;
-    @JsonProperty("email")
-    private String email;
-    @JsonProperty("first_name")
-    private String first_name;
-    @JsonProperty("last_name")
-    private String last_name;
-    @JsonProperty("avatar")
-    private String avatar;
+    private Map<String,String > projectRole;
 
-    public int getId() {
-        return id;
+    private Boolean admin;
+    private Boolean root;
+
+    private String lastSignOn;
+    private String firstName;
+    private String location;
+    private String password;
+    private String createAt;
+    private String updateAt;
+    private String lastName;
+    private String company;
+    private String email;
+    private String name;
+    private String role;
+    private String url;
+    private String id;
+
+
+    public Map<String, String> getProjectRole() {
+        return projectRole;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setProjectRole(Map<String, String> projectRole) {
+        this.projectRole = projectRole;
+    }
+
+    public Boolean getAdmin() {
+        return admin;
+    }
+
+    public void setAdmin(Boolean admin) {
+        this.admin = admin;
+    }
+
+    public Boolean getRoot() {
+        return root;
+    }
+
+    public void setRoot(Boolean root) {
+        this.root = root;
+    }
+
+    public String getLastSignOn() {
+        return lastSignOn;
+    }
+
+    public void setLastSignOn(String lastSignOn) {
+        this.lastSignOn = lastSignOn;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getCreateAt() {
+        return createAt;
+    }
+
+    public void setCreateAt(String createAt) {
+        this.createAt = createAt;
+    }
+
+    public String getUpdateAt() {
+        return updateAt;
+    }
+
+    public void setUpdateAt(String updateAt) {
+        this.updateAt = updateAt;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getCompany() {
+        return company;
+    }
+
+    public void setCompany(String company) {
+        this.company = company;
     }
 
     public String getEmail() {
@@ -31,29 +121,35 @@ public class User {
         this.email = email;
     }
 
-    public String getFirst_name() {
-        return first_name;
+    public String getName() {
+        return name;
     }
 
-    public void setFirst_name(String first_name) {
-        this.first_name = first_name;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getLast_name() {
-        return last_name;
+    public String getRole() {
+        return role;
     }
 
-    public void setLast_name(String last_name) {
-        this.last_name = last_name;
+    public void setRole(String role) {
+        this.role = role;
     }
 
-    public String getAvatar() {
-        return avatar;
+    public String getUrl() {
+        return url;
     }
 
-    public void setAvatar(String avatar) {
-        this.avatar = avatar;
+    public void setUrl(String url) {
+        this.url = url;
     }
 
+    public String getId() {
+        return id;
+    }
 
+    public void setId(String id) {
+        this.id = id;
+    }
 }

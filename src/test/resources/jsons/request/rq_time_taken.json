@@ -1,0 +1,10 @@
+{
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "{{token}}"
+  },
+  "urlParameters": {
+    "reportsLength": 0
+  },
+  "endpoint": "rest/categories/search/getCategoryTimeTakenAverageOverNReports"
+}

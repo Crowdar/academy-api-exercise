@@ -1,0 +1,9 @@
+{
+  "headers": {
+    "Authorization": "{{token}}",
+    "Content-Type": "application/json"
+  },
+  "urlParameters": {
+  },
+  "endpoint": "rest/user/me"
+}

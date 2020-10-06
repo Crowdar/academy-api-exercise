@@ -1,0 +1,10 @@
+{
+  "headers": {
+    "Authorization": "{{token}}",
+    "Content-Type": "application/json"
+  },
+  "urlParameters": {
+    "id": "admin"
+  },
+  "endpoint": "rest/user/remove"
+}

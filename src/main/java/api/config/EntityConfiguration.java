@@ -1,7 +1,6 @@
 package api.config;
 
-import services.ResponseHeadersService;
-import services.UserService;
+import services.*;
 
 public enum EntityConfiguration {
 
@@ -12,10 +11,24 @@ public enum EntityConfiguration {
         }
 
     },
-    RESPONSE_HEADERS {
+    UPDATE {
         @Override
         public Class<?> getEntityService() {
-            return ResponseHeadersService.class;
+            return UpdateService.class;
+        }
+
+    },
+    CATEGORIES {
+        @Override
+        public Class<?> getEntityService() {
+            return CategoriesService.class;
+        }
+
+    },
+    TOKEN {
+        @Override
+        public Class<?> getEntityService() {
+            return TokenService.class;
         }
     };
 

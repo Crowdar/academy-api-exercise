@@ -1,0 +1,50 @@
+[
+  {
+    "name": "@Success",
+    "total": 0
+  },
+  {
+    "name": "@minimal2",
+    "total": 0
+  },
+  {
+    "name": "@Regression",
+    "total": 0
+  },
+  {
+    "name": "@minimal",
+    "total": 0
+  },
+  {
+    "name": "@minimal1",
+    "total": 0
+  },
+  {
+    "name": "@featTag",
+    "total": 0
+  },
+  {
+    "name": "@zaleniumHook",
+    "total": 0
+  },
+  {
+    "name": "@POC",
+    "total": 0
+  },
+  {
+    "name": "@Stress",
+    "total": 0
+  },
+  {
+    "name": "@Smoke",
+    "total": 0
+  },
+  {
+    "name": "@Example",
+    "total": 0
+  },
+  {
+    "name": "@foo",
+    "total": 0
+  }
+]
