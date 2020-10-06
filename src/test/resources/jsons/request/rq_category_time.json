@@ -1,0 +1,9 @@
+{
+  "headers": {
+    "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAxMjIwMzU5LCJleHAiOjE2MDEzMDY3NTl9.BCHk2m9Tsn6Qp4ae2O7GCxvkIONrtdRR-DGHm1FC3ctPNDV8nIX2_5HjIGGN1QyewJg1NR-MRU_dq86yk_ljtQ",
+    "Content-Type": "application/json",
+
+  },
+  "urlParameters": {},
+  "endpoint":"rest/categories/search/getCategoryTimeTakenAverageOverNReports?reportsLength=30"
+}
