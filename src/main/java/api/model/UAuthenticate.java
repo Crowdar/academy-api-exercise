@@ -1,36 +1,14 @@
 package api.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-
+import lombok.*;
 public class UAuthenticate {
-
+    @Getter @Setter
     private String jwt;
+    @Getter @Setter
     @JsonProperty("expires")
     private int expires;
+    @Getter @Setter
     @JsonProperty("username")
     private String username;
-
-    public String getJwt() {
-        return jwt;
-    }
-
-    public void setJwt(String jwt) {
-        this.jwt = jwt;
-    }
-
-    public int getExpires() {
-        return expires;
-    }
-
-    public void setExpires(int expires) {
-        this.expires = expires;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
 }

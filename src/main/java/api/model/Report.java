@@ -1,47 +1,18 @@
 package api.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-
+import lombok.*;
 public class Report {
-
+    @Getter @Setter
     @JsonProperty("total")
     private int total;
+    @Getter @Setter
     @JsonProperty("passTotal")
     private int passTotal;
+    @Getter @Setter
     @JsonProperty("skipTotal")
     private int skipTotal;
+    @Getter @Setter
     @JsonProperty("startTime")
     private String startTime;
-
-    public int getTotal() {
-        return total;
-    }
-
-    public void setTotal(int total) {
-        this.total = total;
-    }
-
-    public int getPassTotal() {
-        return passTotal;
-    }
-
-    public void setPassTotal(int passTotal) {
-        this.passTotal = passTotal;
-    }
-
-    public int getSkipTotal() {
-        return skipTotal;
-    }
-
-    public void setSkipTotal(int skipTotal) {
-        this.skipTotal = skipTotal;
-    }
-
-    public String getStartTime() {
-        return startTime;
-    }
-
-    public void setStartTime(String startTime) {
-        this.startTime = startTime;
-    }
 }

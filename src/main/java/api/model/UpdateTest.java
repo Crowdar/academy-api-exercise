@@ -1,126 +1,42 @@
 package api.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-
+import lombok.*;
 public class UpdateTest {
+    @Getter @Setter
     @JsonProperty("reportName")
     private String reportName;
+    @Getter @Setter
     @JsonProperty("level")
     private int level;
+    @Getter @Setter
     @JsonProperty("name")
     private String name;
+    @Getter @Setter
     @JsonProperty("status")
     private String status;
+    @Getter @Setter
     @JsonProperty("bdd")
     private boolean bdd;
+    @Getter @Setter
     @JsonProperty("bddType")
     private String bddType;
+    @Getter @Setter
     @JsonProperty("childNodesLength")
     private int childNodesLength;
+    @Getter @Setter
     @JsonProperty("leaf")
     private boolean leaf;
+    @Getter @Setter
     @JsonProperty("endTime")
     private String endTime;
+    @Getter @Setter
     @JsonProperty("startTime")
     private String startTime;
+    @Getter @Setter
     @JsonProperty("description")
     private String description;
+    @Getter @Setter
     @JsonProperty("categorized")
     private boolean categorized;
-
-    public String getReportName() {
-        return reportName;
-    }
-
-    public void setReportName(String reportName) {
-        this.reportName = reportName;
-    }
-
-    public int getLevel() {
-        return level;
-    }
-
-    public void setLevel(int level) {
-        this.level = level;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getStatus() {
-        return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
-    public boolean isBdd() {
-        return bdd;
-    }
-
-    public void setBdd(boolean bdd) {
-        this.bdd = bdd;
-    }
-
-    public String getBddType() {
-        return bddType;
-    }
-
-    public void setBddType(String bddType) {
-        this.bddType = bddType;
-    }
-
-    public int getChildNodesLength() {
-        return childNodesLength;
-    }
-
-    public void setChildNodesLength(int childNodesLength) {
-        this.childNodesLength = childNodesLength;
-    }
-
-    public boolean isLeaf() {
-        return leaf;
-    }
-
-    public void setLeaf(boolean leaf) {
-        this.leaf = leaf;
-    }
-
-    public String getEndTime() {
-        return endTime;
-    }
-
-    public void setEndTime(String endTime) {
-        this.endTime = endTime;
-    }
-
-    public String getStartTime() {
-        return startTime;
-    }
-
-    public void setStartTime(String startTime) {
-        this.startTime = startTime;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public boolean isCategorized() {
-        return categorized;
-    }
-
-    public void setCategorized(boolean categorized) {
-        this.categorized = categorized;
-    }
 }

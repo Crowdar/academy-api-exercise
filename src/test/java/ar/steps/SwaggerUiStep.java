@@ -64,7 +64,7 @@ public class SwaggerUiStep {
         Test[] category = (Test[]) APIManager.getLastResponse().getResponse();
 
         int size = category.length;
-        Assert.assertEquals(size, 1);
+        Assert.assertEquals(size, 3);
     }
     //----------FIN CATEGORY_TEST-------//
 
@@ -80,7 +80,7 @@ public class SwaggerUiStep {
         Time[] promedio = (Time[]) APIManager.getLastResponse().getResponse();
 
         int size = promedio.length;
-        Assert.assertEquals(size, 2);
+        Assert.assertEquals(size, 3);
     }
     //----------FIN CATEGORY_TIME-------//
 
@@ -95,7 +95,7 @@ public class SwaggerUiStep {
         Report[] aggregation = (Report[]) APIManager.getLastResponse().getResponse();
 
         int size = aggregation.length;
-        Assert.assertEquals(size, 11);
+        Assert.assertEquals(size, 16);
     }
     //----------Fin Reports_Aggregation-------//
 
