@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "Authorization": "Bearer {{token}}",
+    "Content-Type": "application/json"
+  },
+  "body":
+  {
+    "reportName": "nubi",
+    "level": 1,
+    "name": "hostnubi",
+    "status": "OK",
+    "bdd": true,
+    "bddType": "MariaDB",
+    "childNodesLength": 1,
+    "leaf": true,
+    "endTime": "2030-01-26T20:55:54.083Z",
+    "startTime": "2020-08-26T20:55:54.083Z",
+    "description": "apis",
+    "categorized": true
+  },
+  "endpoint":"rest/tests/update"
+}

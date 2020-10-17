@@ -1,0 +1,11 @@
+{
+  "headers": {
+    "Authorization": "Bearer {{token}}",
+    "Content-Type": "application/json"
+  },
+  "urlParameters": {
+    "daysPast": "100",
+    "projectId": "test"
+  },
+  "endpoint":"/rest/runs/aggregation"
+}
